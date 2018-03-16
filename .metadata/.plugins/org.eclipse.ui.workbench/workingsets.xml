@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1491655220950_0" label="collector-2016" name="collector-2016">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/meter-core" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/meter-socket" type="4"/>
+</workingSet>
+</workingSetManager>

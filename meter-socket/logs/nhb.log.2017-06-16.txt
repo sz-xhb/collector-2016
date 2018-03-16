@@ -1,0 +1,3246 @@
+2017-06-16 08:59:57,755 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:00:00,698 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:00:03,790 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:00:06,744 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:00:09,746 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:00:12,750 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:00:15,775 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:00:18,793 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:00:21,802 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:00:24,797 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:00:27,787 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:00:30,821 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:00:33,818 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:00:36,810 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:00:39,800 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:00:42,800 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:00:45,796 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:00:48,792 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:00:51,790 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:00:54,803 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:00:57,855 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:01:00,794 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:01:03,788 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:01:06,788 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:01:09,789 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:01:12,788 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:01:15,792 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:01:18,797 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:01:21,797 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:01:24,789 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:01:27,790 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:01:30,796 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:01:33,795 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:01:36,790 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:01:39,790 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:01:42,789 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:01:45,789 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:01:48,795 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:01:51,797 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:01:54,795 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:01:57,795 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:02:00,793 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:02:03,795 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:02:06,798 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:02:09,800 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:02:12,798 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:02:15,793 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:02:18,803 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:02:21,800 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:02:24,801 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:02:27,802 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:02:30,805 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:02:33,801 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:02:36,801 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:02:39,802 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:02:42,802 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:02:45,802 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:02:48,803 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:02:51,810 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:02:54,804 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:02:57,804 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:03:00,804 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:03:03,807 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:03:06,805 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:03:09,804 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:03:12,809 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:03:15,803 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:03:18,804 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:03:21,805 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:03:24,805 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:03:27,809 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:03:30,804 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:03:33,804 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:03:36,808 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:03:39,811 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:03:42,806 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:03:45,806 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:03:48,807 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:03:51,805 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:03:54,806 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:03:57,807 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:04:00,806 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:04:03,806 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:04:06,806 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:04:09,806 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:04:12,807 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:04:15,807 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:04:18,810 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:04:21,810 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:04:24,817 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:04:27,809 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:04:30,809 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:04:33,809 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:04:36,808 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:04:39,812 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:04:42,808 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:04:45,810 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:04:48,809 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:04:51,811 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:04:54,809 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:04:57,822 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:05:00,820 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:05:03,818 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:05:06,813 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:05:09,813 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:05:12,812 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:05:15,814 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:05:18,812 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:05:21,813 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:05:24,817 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:05:27,813 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:05:30,812 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:05:33,813 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:05:36,812 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:05:39,813 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:05:42,816 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:05:45,813 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:05:48,814 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:05:51,815 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:05:54,815 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:05:57,816 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:06:00,816 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:06:03,816 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:06:06,815 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:06:09,815 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:06:12,815 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:06:15,816 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:06:18,816 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:06:21,816 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:06:24,819 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:06:27,817 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:06:30,817 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:06:33,817 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:06:36,817 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:06:39,832 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:06:42,838 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:06:45,817 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:06:48,818 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:06:51,818 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:06:54,818 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:06:57,818 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:07:00,818 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:07:03,818 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:07:06,830 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:07:09,836 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:07:12,824 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:07:15,823 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:07:18,823 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:07:21,822 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:07:24,829 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:07:27,823 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:07:30,823 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:07:33,824 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:07:36,824 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:07:39,824 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:07:42,825 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:07:45,825 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:07:48,827 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:07:51,825 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:07:54,825 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:07:57,826 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:08:00,826 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:08:03,826 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:08:06,834 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:08:09,826 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:08:12,825 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:08:15,827 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:08:18,826 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:08:21,826 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:08:24,826 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:08:27,826 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:08:30,826 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:08:33,827 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:08:36,827 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:08:39,828 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:08:42,827 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:08:45,827 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:08:48,828 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:08:51,828 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:08:54,828 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:08:57,828 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:09:00,830 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:09:03,835 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:09:06,837 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:09:09,837 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:09:12,835 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:09:15,839 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:09:18,836 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:09:21,831 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:09:24,831 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:09:27,833 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:09:30,832 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:09:33,832 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:09:36,833 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:09:39,832 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:09:42,832 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:09:45,833 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:09:48,833 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:09:51,833 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:09:54,833 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:09:57,836 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:10:00,834 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:10:03,834 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:10:06,834 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:10:09,834 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:10:12,835 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:10:15,834 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:10:18,836 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:10:21,835 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:10:24,835 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:10:27,835 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:10:30,835 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:10:33,835 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:10:36,836 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:10:39,836 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:10:42,836 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:10:45,836 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:10:48,836 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:10:51,837 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:10:54,837 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:10:57,837 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:11:00,837 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:11:03,837 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:11:06,837 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:11:09,837 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:11:12,838 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:11:15,838 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:11:18,838 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:11:21,839 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:11:24,838 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:11:27,839 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:11:30,838 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:11:33,839 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:11:36,845 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:11:39,845 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:11:42,846 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:11:45,845 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:11:48,847 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:11:51,846 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:11:54,852 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:11:57,847 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:12:00,847 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:12:03,850 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:12:06,848 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:12:09,848 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:12:12,843 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:12:15,851 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:12:18,848 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:12:21,850 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:12:24,847 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:12:27,855 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:12:30,849 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:12:33,847 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:12:36,849 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:12:39,850 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:12:42,851 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:12:45,850 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:12:48,844 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:12:51,852 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:12:54,844 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:12:57,852 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:13:00,862 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:13:03,851 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:13:06,850 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:13:09,850 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:13:12,853 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:13:15,856 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:13:18,862 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:13:21,852 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:13:24,851 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:13:27,846 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:13:30,852 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:13:33,853 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:13:36,852 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:13:39,852 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:13:42,852 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:13:45,853 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:13:48,852 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:13:51,853 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:13:54,853 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:13:57,854 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:14:00,853 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:14:03,853 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:14:06,854 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:14:09,854 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:14:12,855 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:14:15,849 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:14:18,854 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:14:21,854 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:14:24,855 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:14:27,855 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:14:30,855 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:14:33,854 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:14:36,856 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:14:39,855 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:14:42,851 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:14:45,857 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:14:48,857 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:14:51,856 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:14:54,856 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:14:57,852 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:15:00,852 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:15:03,857 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:15:06,851 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:15:09,856 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:15:12,857 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:15:15,859 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:15:18,865 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:15:21,858 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:15:24,852 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:15:27,852 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:15:30,858 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:15:33,859 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:15:36,861 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:15:39,859 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:15:42,859 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:15:45,860 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:15:48,859 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:15:51,860 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:15:54,860 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:15:57,860 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:16:00,859 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:16:03,855 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:16:06,860 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:16:09,861 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:16:12,861 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:16:15,861 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:16:18,856 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:16:21,856 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:16:24,868 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:16:27,862 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:16:30,862 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:16:33,862 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:16:36,862 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:16:39,861 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:16:42,862 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:16:45,863 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:16:48,863 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:16:51,863 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:16:54,863 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:16:57,862 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:17:00,864 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:17:03,864 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:17:06,864 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:17:09,864 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:17:12,864 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:17:15,858 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:17:18,860 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:17:21,865 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:17:24,864 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:17:27,865 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:17:30,865 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:17:33,865 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:17:36,866 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:17:39,866 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:17:42,866 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:17:45,866 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:17:48,866 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:17:51,866 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:17:54,867 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:17:57,867 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:18:00,867 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:18:03,867 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:18:06,867 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:18:09,867 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:18:12,868 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:18:15,868 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:18:18,869 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:18:21,863 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:18:24,867 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:18:27,863 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:18:30,870 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:18:33,868 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:18:36,869 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:18:39,868 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:18:42,867 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:18:45,870 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:18:48,870 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:18:51,870 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:18:54,869 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:18:57,869 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:19:00,870 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:19:03,870 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:19:06,871 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:19:09,870 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:19:12,870 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:19:15,870 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:19:18,870 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:19:21,872 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:19:24,871 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:19:27,872 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:19:30,866 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:19:33,865 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:19:36,866 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:19:39,867 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:19:42,867 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:19:45,867 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:19:48,867 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:19:51,866 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:19:54,868 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:19:57,868 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:20:00,867 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:20:03,868 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:20:06,868 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:20:09,868 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:20:12,869 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:20:15,869 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:20:18,869 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:20:21,868 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:20:24,869 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:20:27,869 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:20:30,869 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:20:33,870 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:20:36,870 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:20:39,870 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:20:42,869 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:20:45,870 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:20:48,871 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:20:51,871 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:20:54,871 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:20:57,871 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:21:00,871 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:21:03,871 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:21:06,872 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:21:09,872 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:21:12,877 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:21:15,874 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:21:18,872 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:21:21,871 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:21:24,873 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:21:27,872 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:21:30,872 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:21:33,872 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:21:36,872 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:21:39,874 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:21:42,880 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:21:45,880 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:21:48,874 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:21:51,874 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:21:54,879 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:21:57,880 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:22:06,875 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:22:09,880 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:22:12,875 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:22:15,875 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:22:18,876 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:22:21,875 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:22:24,875 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:22:27,876 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:22:30,875 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:22:33,877 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:22:36,877 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:22:39,877 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:22:42,876 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:22:45,876 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:22:48,876 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:22:51,877 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:22:54,878 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:22:57,878 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:23:00,877 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:23:03,877 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:23:06,878 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:23:09,878 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:23:12,879 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:23:15,879 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:23:18,877 WARN Timer-1 (KeepWritingTimerTask.java:137)
+2015070758 not found
+2017-06-16 09:23:18,880 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:23:21,877 WARN Timer-1 (KeepWritingTimerTask.java:137)
+2015070758 not found
+2017-06-16 09:23:21,881 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:23:24,878 WARN Timer-1 (KeepWritingTimerTask.java:137)
+2015070758 not found
+2017-06-16 09:23:24,882 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:23:27,887 WARN Timer-1 (KeepWritingTimerTask.java:137)
+2015070758 not found
+2017-06-16 09:23:27,896 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:23:30,883 WARN Timer-1 (KeepWritingTimerTask.java:137)
+2015070758 not found
+2017-06-16 09:23:30,887 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:23:33,883 WARN Timer-1 (KeepWritingTimerTask.java:137)
+2015070758 not found
+2017-06-16 09:23:33,887 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:23:36,883 WARN Timer-1 (KeepWritingTimerTask.java:137)
+2015070758 not found
+2017-06-16 09:23:36,887 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:23:39,883 WARN Timer-1 (KeepWritingTimerTask.java:137)
+2015070758 not found
+2017-06-16 09:23:39,887 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:23:42,884 WARN Timer-1 (KeepWritingTimerTask.java:137)
+2015070758 not found
+2017-06-16 09:23:42,888 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:23:45,885 WARN Timer-1 (KeepWritingTimerTask.java:137)
+2015070758 not found
+2017-06-16 09:23:45,888 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:23:48,885 WARN Timer-1 (KeepWritingTimerTask.java:137)
+2015070758 not found
+2017-06-16 09:23:48,889 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:23:51,886 WARN Timer-1 (KeepWritingTimerTask.java:137)
+2015070758 not found
+2017-06-16 09:23:51,890 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:23:54,886 WARN Timer-1 (KeepWritingTimerTask.java:137)
+2015070758 not found
+2017-06-16 09:23:54,890 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:23:57,886 WARN Timer-1 (KeepWritingTimerTask.java:137)
+2015070758 not found
+2017-06-16 09:23:57,891 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:24:00,886 WARN Timer-1 (KeepWritingTimerTask.java:137)
+2015070758 not found
+2017-06-16 09:24:00,890 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:24:03,886 WARN Timer-1 (KeepWritingTimerTask.java:137)
+2015070758 not found
+2017-06-16 09:24:03,890 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:24:06,886 WARN Timer-1 (KeepWritingTimerTask.java:137)
+2015070758 not found
+2017-06-16 09:24:06,890 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:24:09,886 WARN Timer-1 (KeepWritingTimerTask.java:137)
+2015070758 not found
+2017-06-16 09:24:09,891 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:24:12,886 WARN Timer-1 (KeepWritingTimerTask.java:137)
+2015070758 not found
+2017-06-16 09:24:12,890 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:24:15,886 WARN Timer-1 (KeepWritingTimerTask.java:137)
+2015070758 not found
+2017-06-16 09:24:15,890 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:24:18,887 WARN Timer-1 (KeepWritingTimerTask.java:137)
+2015070758 not found
+2017-06-16 09:24:18,891 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:24:21,887 WARN Timer-1 (KeepWritingTimerTask.java:137)
+2015070758 not found
+2017-06-16 09:24:21,891 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:24:24,887 WARN Timer-1 (KeepWritingTimerTask.java:137)
+2015070758 not found
+2017-06-16 09:24:24,891 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:24:27,888 WARN Timer-1 (KeepWritingTimerTask.java:137)
+2015070758 not found
+2017-06-16 09:24:27,891 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:24:30,887 WARN Timer-1 (KeepWritingTimerTask.java:137)
+2015070758 not found
+2017-06-16 09:24:30,891 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:24:33,889 WARN Timer-1 (KeepWritingTimerTask.java:137)
+2015070758 not found
+2017-06-16 09:24:33,895 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:24:36,891 WARN Timer-1 (KeepWritingTimerTask.java:137)
+2015070758 not found
+2017-06-16 09:24:36,895 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:24:39,890 WARN Timer-1 (KeepWritingTimerTask.java:137)
+2015070758 not found
+2017-06-16 09:24:39,894 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:24:42,890 WARN Timer-1 (KeepWritingTimerTask.java:137)
+2015070758 not found
+2017-06-16 09:24:42,894 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:24:45,890 WARN Timer-1 (KeepWritingTimerTask.java:137)
+2015070758 not found
+2017-06-16 09:24:45,894 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:24:48,890 WARN Timer-1 (KeepWritingTimerTask.java:137)
+2015070758 not found
+2017-06-16 09:24:48,895 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:24:51,890 WARN Timer-1 (KeepWritingTimerTask.java:137)
+2015070758 not found
+2017-06-16 09:24:51,895 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:24:54,891 WARN Timer-1 (KeepWritingTimerTask.java:137)
+2015070758 not found
+2017-06-16 09:24:54,896 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:24:57,891 WARN Timer-1 (KeepWritingTimerTask.java:137)
+2015070758 not found
+2017-06-16 09:24:57,896 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:25:00,891 WARN Timer-1 (KeepWritingTimerTask.java:137)
+2015070758 not found
+2017-06-16 09:25:00,901 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:25:03,891 WARN Timer-1 (KeepWritingTimerTask.java:137)
+2015070758 not found
+2017-06-16 09:25:03,895 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:25:06,891 WARN Timer-1 (KeepWritingTimerTask.java:137)
+2015070758 not found
+2017-06-16 09:25:06,896 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:25:09,892 WARN Timer-1 (KeepWritingTimerTask.java:137)
+2015070758 not found
+2017-06-16 09:25:09,896 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:25:12,892 WARN Timer-1 (KeepWritingTimerTask.java:137)
+2015070758 not found
+2017-06-16 09:25:12,896 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:25:15,893 WARN Timer-1 (KeepWritingTimerTask.java:137)
+2015070758 not found
+2017-06-16 09:25:15,897 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:25:18,893 WARN Timer-1 (KeepWritingTimerTask.java:137)
+2015070758 not found
+2017-06-16 09:25:18,897 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:25:21,892 WARN Timer-1 (KeepWritingTimerTask.java:137)
+2015070758 not found
+2017-06-16 09:25:21,897 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:25:24,892 WARN Timer-1 (KeepWritingTimerTask.java:137)
+2015070758 not found
+2017-06-16 09:25:24,896 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:25:27,894 WARN Timer-1 (KeepWritingTimerTask.java:137)
+2015070758 not found
+2017-06-16 09:25:27,898 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:25:30,893 WARN Timer-1 (KeepWritingTimerTask.java:137)
+2015070758 not found
+2017-06-16 09:25:30,898 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:25:33,893 WARN Timer-1 (KeepWritingTimerTask.java:137)
+2015070758 not found
+2017-06-16 09:25:33,900 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:25:36,893 WARN Timer-1 (KeepWritingTimerTask.java:137)
+2015070758 not found
+2017-06-16 09:25:36,897 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:25:39,893 WARN Timer-1 (KeepWritingTimerTask.java:137)
+2015070758 not found
+2017-06-16 09:25:39,897 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:25:42,893 WARN Timer-1 (KeepWritingTimerTask.java:137)
+2015070758 not found
+2017-06-16 09:25:42,897 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:25:45,894 WARN Timer-1 (KeepWritingTimerTask.java:137)
+2015070758 not found
+2017-06-16 09:25:45,898 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:25:48,894 WARN Timer-1 (KeepWritingTimerTask.java:137)
+2015070758 not found
+2017-06-16 09:25:48,898 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:25:51,894 WARN Timer-1 (KeepWritingTimerTask.java:137)
+2015070758 not found
+2017-06-16 09:25:51,898 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:25:54,894 WARN Timer-1 (KeepWritingTimerTask.java:137)
+2015070758 not found
+2017-06-16 09:25:54,898 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:25:57,894 WARN Timer-1 (KeepWritingTimerTask.java:137)
+2015070758 not found
+2017-06-16 09:25:57,897 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:26:00,894 WARN Timer-1 (KeepWritingTimerTask.java:137)
+2015070758 not found
+2017-06-16 09:26:00,898 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:26:03,895 WARN Timer-1 (KeepWritingTimerTask.java:137)
+2015070758 not found
+2017-06-16 09:26:03,899 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:26:06,895 WARN Timer-1 (KeepWritingTimerTask.java:137)
+2015070758 not found
+2017-06-16 09:26:06,899 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:26:09,895 WARN Timer-1 (KeepWritingTimerTask.java:137)
+2015070758 not found
+2017-06-16 09:26:09,900 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:26:12,895 WARN Timer-1 (KeepWritingTimerTask.java:137)
+2015070758 not found
+2017-06-16 09:26:12,901 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:26:15,895 WARN Timer-1 (KeepWritingTimerTask.java:137)
+2015070758 not found
+2017-06-16 09:26:15,899 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:26:18,895 WARN Timer-1 (KeepWritingTimerTask.java:137)
+2015070758 not found
+2017-06-16 09:26:18,899 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:26:21,896 WARN Timer-1 (KeepWritingTimerTask.java:137)
+2015070758 not found
+2017-06-16 09:26:21,900 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:26:24,896 WARN Timer-1 (KeepWritingTimerTask.java:137)
+2015070758 not found
+2017-06-16 09:26:24,912 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:26:27,896 WARN Timer-1 (KeepWritingTimerTask.java:137)
+2015070758 not found
+2017-06-16 09:26:27,900 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:26:30,896 WARN Timer-1 (KeepWritingTimerTask.java:137)
+2015070758 not found
+2017-06-16 09:26:30,900 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:26:33,896 WARN Timer-1 (KeepWritingTimerTask.java:137)
+2015070758 not found
+2017-06-16 09:26:33,900 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:26:36,896 WARN Timer-1 (KeepWritingTimerTask.java:137)
+2015070758 not found
+2017-06-16 09:26:36,900 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:26:39,897 WARN Timer-1 (KeepWritingTimerTask.java:137)
+2015070758 not found
+2017-06-16 09:26:39,901 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:26:42,897 WARN Timer-1 (KeepWritingTimerTask.java:137)
+2015070758 not found
+2017-06-16 09:26:42,901 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:26:45,897 WARN Timer-1 (KeepWritingTimerTask.java:137)
+2015070758 not found
+2017-06-16 09:26:45,901 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:26:48,897 WARN Timer-1 (KeepWritingTimerTask.java:137)
+2015070758 not found
+2017-06-16 09:26:48,901 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:26:51,897 WARN Timer-1 (KeepWritingTimerTask.java:137)
+2015070758 not found
+2017-06-16 09:26:51,901 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:26:54,898 WARN Timer-1 (KeepWritingTimerTask.java:137)
+2015070758 not found
+2017-06-16 09:26:54,904 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:26:57,898 WARN Timer-1 (KeepWritingTimerTask.java:137)
+2015070758 not found
+2017-06-16 09:26:57,902 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:27:00,898 WARN Timer-1 (KeepWritingTimerTask.java:137)
+2015070758 not found
+2017-06-16 09:27:00,902 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:27:03,899 WARN Timer-1 (KeepWritingTimerTask.java:137)
+2015070758 not found
+2017-06-16 09:27:03,903 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:27:06,898 WARN Timer-1 (KeepWritingTimerTask.java:137)
+2015070758 not found
+2017-06-16 09:27:06,909 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:27:09,898 WARN Timer-1 (KeepWritingTimerTask.java:137)
+2015070758 not found
+2017-06-16 09:27:09,902 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:27:12,905 WARN Timer-1 (KeepWritingTimerTask.java:137)
+2015070758 not found
+2017-06-16 09:27:12,909 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:27:15,900 WARN Timer-1 (KeepWritingTimerTask.java:137)
+2015070758 not found
+2017-06-16 09:27:15,904 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:27:18,900 WARN Timer-1 (KeepWritingTimerTask.java:137)
+2015070758 not found
+2017-06-16 09:27:18,910 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:27:21,899 WARN Timer-1 (KeepWritingTimerTask.java:137)
+2015070758 not found
+2017-06-16 09:27:21,903 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:27:24,905 WARN Timer-1 (KeepWritingTimerTask.java:137)
+2015070758 not found
+2017-06-16 09:27:24,913 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:27:27,899 WARN Timer-1 (KeepWritingTimerTask.java:137)
+2015070758 not found
+2017-06-16 09:27:27,904 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:27:30,900 WARN Timer-1 (KeepWritingTimerTask.java:137)
+2015070758 not found
+2017-06-16 09:27:30,909 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:27:33,902 WARN Timer-1 (KeepWritingTimerTask.java:137)
+2015070758 not found
+2017-06-16 09:27:33,907 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:27:36,900 WARN Timer-1 (KeepWritingTimerTask.java:137)
+2015070758 not found
+2017-06-16 09:27:36,905 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:27:39,903 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:27:39,907 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:27:42,908 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:27:42,912 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:27:45,903 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:27:45,909 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:27:48,909 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:27:48,913 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:27:51,904 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:27:51,908 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:27:54,910 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:27:54,914 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:27:57,905 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:27:57,909 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:28:00,904 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:28:00,908 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:28:03,905 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:28:03,911 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:28:06,910 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:28:06,915 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:28:09,905 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:28:09,909 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:28:12,911 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:28:12,914 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:28:15,905 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:28:15,908 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:28:18,907 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:28:18,911 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:28:21,905 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:28:21,911 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:28:24,905 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:28:24,908 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:28:27,906 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:28:27,910 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:28:30,905 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:28:31,091 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:28:33,906 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:28:33,909 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:28:36,911 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:28:36,915 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:28:39,907 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:28:39,910 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:28:42,910 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:28:42,915 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:28:45,907 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:28:45,911 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:28:48,907 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:28:48,910 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:28:51,907 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:28:51,910 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:28:54,912 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:28:54,915 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:28:57,908 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:28:57,912 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:29:00,908 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:29:00,914 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:29:03,908 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:29:03,912 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:29:06,907 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:29:06,911 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:29:09,909 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:29:09,915 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:29:12,914 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:29:12,918 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:29:15,909 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:29:15,912 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:29:18,909 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:29:18,913 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:29:21,910 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:29:21,914 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:29:24,909 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:29:24,913 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:29:27,909 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:29:27,914 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:29:30,916 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:29:30,922 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:29:33,911 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:29:33,914 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:29:36,910 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:29:36,913 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:29:39,911 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:29:39,916 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:29:42,909 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:29:42,914 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:29:45,909 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:29:45,913 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:29:48,912 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:29:48,917 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:29:51,911 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:29:51,915 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:29:54,910 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:29:54,916 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:29:57,911 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:29:57,913 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:30:00,910 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:30:00,913 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:30:03,910 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:30:03,912 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:30:06,911 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:30:06,915 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:30:09,912 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:30:09,916 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:30:12,911 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:30:12,914 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:30:15,911 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:30:15,914 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:30:18,918 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:30:18,921 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:30:21,912 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:30:21,917 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:30:24,913 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:30:24,915 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:30:27,913 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:30:27,917 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:30:30,912 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:30:30,916 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:30:33,913 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:30:33,916 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:30:36,912 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:30:36,921 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:30:39,913 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:30:39,917 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:30:42,913 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:30:42,917 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:30:45,914 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:30:45,917 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:30:48,915 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:30:48,920 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:30:51,914 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:30:51,919 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:30:54,914 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:30:54,918 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070745 is empty
+2017-06-16 09:32:01,176 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:32:04,165 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:32:07,171 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:32:10,163 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:32:13,164 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:32:16,163 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:32:19,162 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:32:22,163 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:32:25,163 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:32:28,162 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:32:31,162 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:32:34,174 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:32:37,165 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:32:40,177 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:32:43,173 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:32:46,165 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:32:49,176 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:32:52,169 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:32:55,164 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:32:58,179 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:33:01,167 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:33:04,165 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:33:07,164 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:33:10,166 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:33:13,193 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:33:16,166 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:33:19,166 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:33:22,169 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:33:25,171 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:33:28,167 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:33:31,167 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:33:34,179 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:33:37,169 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:33:40,167 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:33:43,166 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:33:46,167 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:33:49,165 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:33:52,167 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:33:55,166 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:33:58,166 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:34:01,167 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:34:04,167 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:34:07,166 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:34:10,167 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:34:13,169 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:34:16,168 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:34:19,168 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:34:22,175 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:34:25,167 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:34:28,167 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:34:31,169 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:34:34,175 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:34:37,168 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:34:40,169 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:34:43,170 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:34:46,168 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:34:49,172 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:34:52,170 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:34:55,169 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:34:58,170 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:35:01,171 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:35:04,171 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:35:07,171 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:35:10,171 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:35:13,170 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:35:16,170 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:35:19,169 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:35:22,171 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:35:25,171 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:35:28,171 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:35:31,173 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:35:34,175 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:35:37,171 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:35:40,172 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:35:43,173 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:35:46,174 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:35:49,172 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:35:52,175 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:35:55,172 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:35:58,173 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:36:01,173 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:36:04,173 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:36:07,173 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:36:10,173 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:36:13,173 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:36:16,174 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:36:19,174 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:36:22,176 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:36:25,183 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:36:28,180 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:36:31,174 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:36:34,175 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:36:37,176 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:36:40,176 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:36:43,175 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:36:46,176 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:36:49,176 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:36:52,178 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:36:55,176 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:36:58,176 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:37:01,177 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:37:04,176 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:37:07,182 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:37:10,177 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:37:13,177 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:37:16,177 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:37:19,176 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:37:22,177 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:37:25,179 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:37:28,178 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:37:31,178 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:37:34,178 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:37:37,179 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:37:40,179 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:37:43,179 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:37:46,179 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:37:49,180 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:37:52,178 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:37:55,180 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:37:58,178 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:38:01,180 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:38:04,180 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:38:07,181 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:38:10,181 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:38:13,180 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:38:16,180 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:38:19,182 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:38:22,181 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:38:25,181 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:38:28,181 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:38:31,181 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:38:34,182 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:38:37,181 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:38:40,181 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:38:43,182 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:38:46,185 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:38:49,182 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:38:52,182 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:38:55,183 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:38:58,183 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:39:01,183 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:39:04,183 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:39:07,183 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:39:10,198 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:39:13,186 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:39:16,184 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:39:19,185 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:39:22,184 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:39:25,184 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:39:28,185 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:39:31,185 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:39:34,185 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 09:39:37,184 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:49:39,106 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:49:41,968 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:49:45,180 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:49:48,021 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:49:50,993 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:49:54,126 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:49:57,443 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:50:00,352 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:50:03,132 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:50:06,395 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:50:09,160 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:50:12,162 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:50:15,200 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:50:18,167 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:50:21,283 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:50:24,252 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:50:27,220 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:50:30,244 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:50:33,297 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:50:36,577 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:50:39,554 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:50:42,410 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:50:45,420 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:50:48,472 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:50:51,420 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:50:54,521 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:50:57,434 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:51:00,439 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:51:03,414 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:51:06,415 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:51:09,415 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:51:12,420 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:51:15,415 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:51:18,414 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:51:21,415 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:51:24,414 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:51:27,421 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:51:30,415 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:51:33,415 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:51:36,416 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:51:39,416 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:51:42,416 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:51:45,427 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:51:48,424 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:51:51,418 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:51:54,417 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:51:57,418 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:52:00,423 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:52:03,423 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:52:06,420 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:52:09,418 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:52:12,418 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:52:15,422 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:52:18,418 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:52:21,419 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:52:24,419 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:52:27,422 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:52:30,419 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:52:33,421 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:52:36,421 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:52:39,420 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:52:42,420 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:52:45,421 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:52:48,420 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:52:51,420 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:52:54,420 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:52:57,421 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:53:00,423 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:53:03,422 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:53:06,421 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:53:09,421 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:53:12,421 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:53:15,423 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:53:18,422 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:53:21,422 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:53:24,423 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:53:27,428 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:53:30,423 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:53:33,422 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:53:36,424 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:53:39,423 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:53:42,423 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:53:45,423 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:53:48,423 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:53:51,424 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:53:54,447 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:53:57,424 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:54:00,424 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:54:03,424 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:54:06,427 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:54:09,426 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:54:12,426 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:54:15,426 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:54:18,425 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:54:21,425 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:54:24,425 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:54:27,426 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:54:30,426 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:54:33,433 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:54:36,426 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:54:39,426 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:54:42,426 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:54:45,427 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:54:48,427 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:54:51,427 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:54:54,427 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:54:57,427 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:55:00,427 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:55:03,426 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:55:06,428 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:55:09,428 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:55:12,427 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:55:15,429 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:55:18,429 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:55:21,429 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:55:24,429 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:55:27,429 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:55:30,429 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:55:33,429 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:55:36,430 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:55:39,431 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:55:42,430 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:55:45,430 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:55:48,430 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:55:51,430 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:55:54,431 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:55:57,432 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:56:00,431 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:56:03,432 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:56:06,431 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:56:09,431 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:56:12,432 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:56:15,435 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:56:18,431 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:56:21,431 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:56:24,432 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:56:27,438 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:56:30,435 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:56:33,433 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:56:36,433 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:56:39,434 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:56:42,433 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:56:45,432 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:56:48,433 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:56:51,434 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:56:54,434 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:56:57,434 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:57:00,433 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:57:03,434 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:57:06,434 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:57:09,434 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:57:12,435 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:57:15,435 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:57:18,435 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:57:21,436 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:57:24,436 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:57:27,436 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:57:30,436 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:57:33,436 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:57:36,436 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:57:39,437 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:57:42,446 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:57:45,436 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:57:48,436 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:57:51,436 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:57:54,437 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:57:57,437 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:58:00,437 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:58:03,440 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:58:06,445 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:58:09,437 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:58:12,437 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:58:15,439 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:58:18,439 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:58:21,444 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:58:24,440 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:58:27,450 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:58:30,439 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:58:33,441 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:58:36,441 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:58:39,440 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:58:42,444 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:58:45,440 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:58:48,443 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:58:51,441 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:58:54,442 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:58:57,441 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:59:00,441 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:59:03,441 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:59:06,444 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:59:09,443 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:59:12,442 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:59:15,442 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:59:18,441 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:59:21,442 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:59:24,444 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:59:27,443 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:59:30,443 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:59:33,444 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:59:36,444 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:59:39,443 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:59:42,447 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:59:45,444 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:59:48,444 WARN Timer-1 (KeepWritingTimerTask.java:146)
+2015070758 is empty
+2017-06-16 14:59:51,456 ERROR Timer-1 (KeepWritingTimerTask.java:109)
+unexpected exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.xhb.sockserv.meter.Meter_07Param.<init>(Meter_07Param.java:52)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.addDevices(KeepWritingTimerTask.java:205)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.handlePrdQueue(KeepWritingTimerTask.java:150)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.run(KeepWritingTimerTask.java:104)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2017-06-16 14:59:54,450 ERROR Timer-1 (KeepWritingTimerTask.java:109)
+unexpected exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.xhb.sockserv.meter.Meter_07Param.<init>(Meter_07Param.java:52)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.addDevices(KeepWritingTimerTask.java:205)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.handlePrdQueue(KeepWritingTimerTask.java:150)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.run(KeepWritingTimerTask.java:104)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2017-06-16 14:59:57,445 ERROR Timer-1 (KeepWritingTimerTask.java:109)
+unexpected exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.xhb.sockserv.meter.Meter_07Param.<init>(Meter_07Param.java:52)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.addDevices(KeepWritingTimerTask.java:205)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.handlePrdQueue(KeepWritingTimerTask.java:150)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.run(KeepWritingTimerTask.java:104)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2017-06-16 15:00:00,447 ERROR Timer-1 (KeepWritingTimerTask.java:109)
+unexpected exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.xhb.sockserv.meter.Meter_07Param.<init>(Meter_07Param.java:52)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.addDevices(KeepWritingTimerTask.java:205)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.handlePrdQueue(KeepWritingTimerTask.java:150)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.run(KeepWritingTimerTask.java:104)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2017-06-16 15:00:03,446 ERROR Timer-1 (KeepWritingTimerTask.java:109)
+unexpected exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.xhb.sockserv.meter.Meter_07Param.<init>(Meter_07Param.java:52)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.addDevices(KeepWritingTimerTask.java:205)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.handlePrdQueue(KeepWritingTimerTask.java:150)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.run(KeepWritingTimerTask.java:104)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2017-06-16 15:00:06,460 ERROR Timer-1 (KeepWritingTimerTask.java:109)
+unexpected exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.xhb.sockserv.meter.Meter_07Param.<init>(Meter_07Param.java:52)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.addDevices(KeepWritingTimerTask.java:205)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.handlePrdQueue(KeepWritingTimerTask.java:150)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.run(KeepWritingTimerTask.java:104)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2017-06-16 15:00:09,448 ERROR Timer-1 (KeepWritingTimerTask.java:109)
+unexpected exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.xhb.sockserv.meter.Meter_07Param.<init>(Meter_07Param.java:52)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.addDevices(KeepWritingTimerTask.java:205)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.handlePrdQueue(KeepWritingTimerTask.java:150)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.run(KeepWritingTimerTask.java:104)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2017-06-16 15:00:12,446 ERROR Timer-1 (KeepWritingTimerTask.java:109)
+unexpected exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.xhb.sockserv.meter.Meter_07Param.<init>(Meter_07Param.java:52)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.addDevices(KeepWritingTimerTask.java:205)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.handlePrdQueue(KeepWritingTimerTask.java:150)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.run(KeepWritingTimerTask.java:104)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2017-06-16 15:00:15,446 ERROR Timer-1 (KeepWritingTimerTask.java:109)
+unexpected exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.xhb.sockserv.meter.Meter_07Param.<init>(Meter_07Param.java:52)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.addDevices(KeepWritingTimerTask.java:205)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.handlePrdQueue(KeepWritingTimerTask.java:150)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.run(KeepWritingTimerTask.java:104)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2017-06-16 15:00:18,447 ERROR Timer-1 (KeepWritingTimerTask.java:109)
+unexpected exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.xhb.sockserv.meter.Meter_07Param.<init>(Meter_07Param.java:52)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.addDevices(KeepWritingTimerTask.java:205)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.handlePrdQueue(KeepWritingTimerTask.java:150)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.run(KeepWritingTimerTask.java:104)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2017-06-16 15:00:21,447 ERROR Timer-1 (KeepWritingTimerTask.java:109)
+unexpected exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.xhb.sockserv.meter.Meter_07Param.<init>(Meter_07Param.java:52)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.addDevices(KeepWritingTimerTask.java:205)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.handlePrdQueue(KeepWritingTimerTask.java:150)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.run(KeepWritingTimerTask.java:104)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2017-06-16 15:00:24,447 ERROR Timer-1 (KeepWritingTimerTask.java:109)
+unexpected exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.xhb.sockserv.meter.Meter_07Param.<init>(Meter_07Param.java:52)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.addDevices(KeepWritingTimerTask.java:205)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.handlePrdQueue(KeepWritingTimerTask.java:150)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.run(KeepWritingTimerTask.java:104)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2017-06-16 15:00:27,448 ERROR Timer-1 (KeepWritingTimerTask.java:109)
+unexpected exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.xhb.sockserv.meter.Meter_07Param.<init>(Meter_07Param.java:52)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.addDevices(KeepWritingTimerTask.java:205)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.handlePrdQueue(KeepWritingTimerTask.java:150)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.run(KeepWritingTimerTask.java:104)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2017-06-16 15:00:30,457 ERROR Timer-1 (KeepWritingTimerTask.java:109)
+unexpected exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.xhb.sockserv.meter.Meter_07Param.<init>(Meter_07Param.java:52)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.addDevices(KeepWritingTimerTask.java:205)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.handlePrdQueue(KeepWritingTimerTask.java:150)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.run(KeepWritingTimerTask.java:104)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2017-06-16 15:00:33,449 ERROR Timer-1 (KeepWritingTimerTask.java:109)
+unexpected exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.xhb.sockserv.meter.Meter_07Param.<init>(Meter_07Param.java:52)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.addDevices(KeepWritingTimerTask.java:205)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.handlePrdQueue(KeepWritingTimerTask.java:150)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.run(KeepWritingTimerTask.java:104)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2017-06-16 15:00:36,449 ERROR Timer-1 (KeepWritingTimerTask.java:109)
+unexpected exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.xhb.sockserv.meter.Meter_07Param.<init>(Meter_07Param.java:52)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.addDevices(KeepWritingTimerTask.java:205)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.handlePrdQueue(KeepWritingTimerTask.java:150)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.run(KeepWritingTimerTask.java:104)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2017-06-16 15:00:39,449 ERROR Timer-1 (KeepWritingTimerTask.java:109)
+unexpected exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.xhb.sockserv.meter.Meter_07Param.<init>(Meter_07Param.java:52)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.addDevices(KeepWritingTimerTask.java:205)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.handlePrdQueue(KeepWritingTimerTask.java:150)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.run(KeepWritingTimerTask.java:104)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2017-06-16 15:00:42,463 ERROR Timer-1 (KeepWritingTimerTask.java:109)
+unexpected exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.xhb.sockserv.meter.Meter_07Param.<init>(Meter_07Param.java:52)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.addDevices(KeepWritingTimerTask.java:205)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.handlePrdQueue(KeepWritingTimerTask.java:150)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.run(KeepWritingTimerTask.java:104)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2017-06-16 15:00:45,448 ERROR Timer-1 (KeepWritingTimerTask.java:109)
+unexpected exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.xhb.sockserv.meter.Meter_07Param.<init>(Meter_07Param.java:52)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.addDevices(KeepWritingTimerTask.java:205)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.handlePrdQueue(KeepWritingTimerTask.java:150)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.run(KeepWritingTimerTask.java:104)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2017-06-16 15:00:48,451 ERROR Timer-1 (KeepWritingTimerTask.java:109)
+unexpected exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.xhb.sockserv.meter.Meter_07Param.<init>(Meter_07Param.java:52)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.addDevices(KeepWritingTimerTask.java:205)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.handlePrdQueue(KeepWritingTimerTask.java:150)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.run(KeepWritingTimerTask.java:104)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2017-06-16 15:00:51,450 ERROR Timer-1 (KeepWritingTimerTask.java:109)
+unexpected exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.xhb.sockserv.meter.Meter_07Param.<init>(Meter_07Param.java:52)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.addDevices(KeepWritingTimerTask.java:205)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.handlePrdQueue(KeepWritingTimerTask.java:150)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.run(KeepWritingTimerTask.java:104)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2017-06-16 15:00:54,449 ERROR Timer-1 (KeepWritingTimerTask.java:109)
+unexpected exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.xhb.sockserv.meter.Meter_07Param.<init>(Meter_07Param.java:52)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.addDevices(KeepWritingTimerTask.java:205)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.handlePrdQueue(KeepWritingTimerTask.java:150)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.run(KeepWritingTimerTask.java:104)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2017-06-16 15:00:57,449 ERROR Timer-1 (KeepWritingTimerTask.java:109)
+unexpected exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.xhb.sockserv.meter.Meter_07Param.<init>(Meter_07Param.java:52)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.addDevices(KeepWritingTimerTask.java:205)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.handlePrdQueue(KeepWritingTimerTask.java:150)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.run(KeepWritingTimerTask.java:104)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2017-06-16 15:01:00,449 ERROR Timer-1 (KeepWritingTimerTask.java:109)
+unexpected exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.xhb.sockserv.meter.Meter_07Param.<init>(Meter_07Param.java:52)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.addDevices(KeepWritingTimerTask.java:205)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.handlePrdQueue(KeepWritingTimerTask.java:150)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.run(KeepWritingTimerTask.java:104)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2017-06-16 15:01:03,450 ERROR Timer-1 (KeepWritingTimerTask.java:109)
+unexpected exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.xhb.sockserv.meter.Meter_07Param.<init>(Meter_07Param.java:52)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.addDevices(KeepWritingTimerTask.java:205)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.handlePrdQueue(KeepWritingTimerTask.java:150)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.run(KeepWritingTimerTask.java:104)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2017-06-16 15:01:06,487 ERROR Timer-1 (KeepWritingTimerTask.java:109)
+unexpected exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.xhb.sockserv.meter.Meter_07Param.<init>(Meter_07Param.java:52)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.addDevices(KeepWritingTimerTask.java:205)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.handlePrdQueue(KeepWritingTimerTask.java:150)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.run(KeepWritingTimerTask.java:104)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2017-06-16 15:01:09,454 ERROR Timer-1 (KeepWritingTimerTask.java:109)
+unexpected exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.xhb.sockserv.meter.Meter_07Param.<init>(Meter_07Param.java:52)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.addDevices(KeepWritingTimerTask.java:205)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.handlePrdQueue(KeepWritingTimerTask.java:150)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.run(KeepWritingTimerTask.java:104)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2017-06-16 15:01:12,452 ERROR Timer-1 (KeepWritingTimerTask.java:109)
+unexpected exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.xhb.sockserv.meter.Meter_07Param.<init>(Meter_07Param.java:52)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.addDevices(KeepWritingTimerTask.java:205)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.handlePrdQueue(KeepWritingTimerTask.java:150)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.run(KeepWritingTimerTask.java:104)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2017-06-16 15:01:15,481 ERROR Timer-1 (KeepWritingTimerTask.java:109)
+unexpected exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.xhb.sockserv.meter.Meter_07Param.<init>(Meter_07Param.java:52)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.addDevices(KeepWritingTimerTask.java:205)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.handlePrdQueue(KeepWritingTimerTask.java:150)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.run(KeepWritingTimerTask.java:104)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2017-06-16 15:01:18,453 ERROR Timer-1 (KeepWritingTimerTask.java:109)
+unexpected exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.xhb.sockserv.meter.Meter_07Param.<init>(Meter_07Param.java:52)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.addDevices(KeepWritingTimerTask.java:205)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.handlePrdQueue(KeepWritingTimerTask.java:150)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.run(KeepWritingTimerTask.java:104)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2017-06-16 15:01:21,456 ERROR Timer-1 (KeepWritingTimerTask.java:109)
+unexpected exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.xhb.sockserv.meter.Meter_07Param.<init>(Meter_07Param.java:52)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.addDevices(KeepWritingTimerTask.java:205)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.handlePrdQueue(KeepWritingTimerTask.java:150)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.run(KeepWritingTimerTask.java:104)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2017-06-16 15:01:24,452 ERROR Timer-1 (KeepWritingTimerTask.java:109)
+unexpected exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.xhb.sockserv.meter.Meter_07Param.<init>(Meter_07Param.java:52)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.addDevices(KeepWritingTimerTask.java:205)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.handlePrdQueue(KeepWritingTimerTask.java:150)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.run(KeepWritingTimerTask.java:104)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2017-06-16 15:01:27,454 ERROR Timer-1 (KeepWritingTimerTask.java:109)
+unexpected exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.xhb.sockserv.meter.Meter_07Param.<init>(Meter_07Param.java:52)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.addDevices(KeepWritingTimerTask.java:205)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.handlePrdQueue(KeepWritingTimerTask.java:150)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.run(KeepWritingTimerTask.java:104)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2017-06-16 15:01:30,453 ERROR Timer-1 (KeepWritingTimerTask.java:109)
+unexpected exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.xhb.sockserv.meter.Meter_07Param.<init>(Meter_07Param.java:52)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.addDevices(KeepWritingTimerTask.java:205)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.handlePrdQueue(KeepWritingTimerTask.java:150)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.run(KeepWritingTimerTask.java:104)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2017-06-16 15:01:33,456 ERROR Timer-1 (KeepWritingTimerTask.java:109)
+unexpected exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.xhb.sockserv.meter.Meter_07Param.<init>(Meter_07Param.java:52)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.addDevices(KeepWritingTimerTask.java:205)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.handlePrdQueue(KeepWritingTimerTask.java:150)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.run(KeepWritingTimerTask.java:104)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2017-06-16 15:01:36,454 ERROR Timer-1 (KeepWritingTimerTask.java:109)
+unexpected exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.xhb.sockserv.meter.Meter_07Param.<init>(Meter_07Param.java:52)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.addDevices(KeepWritingTimerTask.java:205)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.handlePrdQueue(KeepWritingTimerTask.java:150)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.run(KeepWritingTimerTask.java:104)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2017-06-16 15:01:39,453 ERROR Timer-1 (KeepWritingTimerTask.java:109)
+unexpected exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.xhb.sockserv.meter.Meter_07Param.<init>(Meter_07Param.java:52)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.addDevices(KeepWritingTimerTask.java:205)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.handlePrdQueue(KeepWritingTimerTask.java:150)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.run(KeepWritingTimerTask.java:104)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2017-06-16 15:01:42,453 ERROR Timer-1 (KeepWritingTimerTask.java:109)
+unexpected exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.xhb.sockserv.meter.Meter_07Param.<init>(Meter_07Param.java:52)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.addDevices(KeepWritingTimerTask.java:205)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.handlePrdQueue(KeepWritingTimerTask.java:150)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.run(KeepWritingTimerTask.java:104)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2017-06-16 15:01:45,455 ERROR Timer-1 (KeepWritingTimerTask.java:109)
+unexpected exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.xhb.sockserv.meter.Meter_07Param.<init>(Meter_07Param.java:52)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.addDevices(KeepWritingTimerTask.java:205)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.handlePrdQueue(KeepWritingTimerTask.java:150)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.run(KeepWritingTimerTask.java:104)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2017-06-16 15:01:48,455 ERROR Timer-1 (KeepWritingTimerTask.java:109)
+unexpected exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.xhb.sockserv.meter.Meter_07Param.<init>(Meter_07Param.java:52)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.addDevices(KeepWritingTimerTask.java:205)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.handlePrdQueue(KeepWritingTimerTask.java:150)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.run(KeepWritingTimerTask.java:104)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2017-06-16 15:01:51,454 ERROR Timer-1 (KeepWritingTimerTask.java:109)
+unexpected exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.xhb.sockserv.meter.Meter_07Param.<init>(Meter_07Param.java:52)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.addDevices(KeepWritingTimerTask.java:205)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.handlePrdQueue(KeepWritingTimerTask.java:150)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.run(KeepWritingTimerTask.java:104)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2017-06-16 15:01:54,456 ERROR Timer-1 (KeepWritingTimerTask.java:109)
+unexpected exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.xhb.sockserv.meter.Meter_07Param.<init>(Meter_07Param.java:52)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.addDevices(KeepWritingTimerTask.java:205)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.handlePrdQueue(KeepWritingTimerTask.java:150)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.run(KeepWritingTimerTask.java:104)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2017-06-16 15:01:57,469 ERROR Timer-1 (KeepWritingTimerTask.java:109)
+unexpected exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.xhb.sockserv.meter.Meter_07Param.<init>(Meter_07Param.java:52)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.addDevices(KeepWritingTimerTask.java:205)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.handlePrdQueue(KeepWritingTimerTask.java:150)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.run(KeepWritingTimerTask.java:104)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2017-06-16 15:02:00,455 ERROR Timer-1 (KeepWritingTimerTask.java:109)
+unexpected exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.xhb.sockserv.meter.Meter_07Param.<init>(Meter_07Param.java:52)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.addDevices(KeepWritingTimerTask.java:205)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.handlePrdQueue(KeepWritingTimerTask.java:150)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.run(KeepWritingTimerTask.java:104)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2017-06-16 15:02:03,455 ERROR Timer-1 (KeepWritingTimerTask.java:109)
+unexpected exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.xhb.sockserv.meter.Meter_07Param.<init>(Meter_07Param.java:52)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.addDevices(KeepWritingTimerTask.java:205)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.handlePrdQueue(KeepWritingTimerTask.java:150)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.run(KeepWritingTimerTask.java:104)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2017-06-16 15:02:06,455 ERROR Timer-1 (KeepWritingTimerTask.java:109)
+unexpected exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.xhb.sockserv.meter.Meter_07Param.<init>(Meter_07Param.java:52)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.addDevices(KeepWritingTimerTask.java:205)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.handlePrdQueue(KeepWritingTimerTask.java:150)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.run(KeepWritingTimerTask.java:104)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2017-06-16 15:02:09,456 ERROR Timer-1 (KeepWritingTimerTask.java:109)
+unexpected exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.xhb.sockserv.meter.Meter_07Param.<init>(Meter_07Param.java:52)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.addDevices(KeepWritingTimerTask.java:205)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.handlePrdQueue(KeepWritingTimerTask.java:150)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.run(KeepWritingTimerTask.java:104)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2017-06-16 15:02:12,461 ERROR Timer-1 (KeepWritingTimerTask.java:109)
+unexpected exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.xhb.sockserv.meter.Meter_07Param.<init>(Meter_07Param.java:52)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.addDevices(KeepWritingTimerTask.java:205)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.handlePrdQueue(KeepWritingTimerTask.java:150)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.run(KeepWritingTimerTask.java:104)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2017-06-16 15:02:15,474 ERROR Timer-1 (KeepWritingTimerTask.java:109)
+unexpected exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.xhb.sockserv.meter.Meter_07Param.<init>(Meter_07Param.java:52)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.addDevices(KeepWritingTimerTask.java:205)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.handlePrdQueue(KeepWritingTimerTask.java:150)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.run(KeepWritingTimerTask.java:104)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2017-06-16 15:02:18,456 ERROR Timer-1 (KeepWritingTimerTask.java:109)
+unexpected exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.xhb.sockserv.meter.Meter_07Param.<init>(Meter_07Param.java:52)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.addDevices(KeepWritingTimerTask.java:205)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.handlePrdQueue(KeepWritingTimerTask.java:150)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.run(KeepWritingTimerTask.java:104)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2017-06-16 15:02:21,456 ERROR Timer-1 (KeepWritingTimerTask.java:109)
+unexpected exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.xhb.sockserv.meter.Meter_07Param.<init>(Meter_07Param.java:52)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.addDevices(KeepWritingTimerTask.java:205)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.handlePrdQueue(KeepWritingTimerTask.java:150)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.run(KeepWritingTimerTask.java:104)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2017-06-16 15:02:24,468 ERROR Timer-1 (KeepWritingTimerTask.java:109)
+unexpected exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.xhb.sockserv.meter.Meter_07Param.<init>(Meter_07Param.java:52)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.addDevices(KeepWritingTimerTask.java:205)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.handlePrdQueue(KeepWritingTimerTask.java:150)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.run(KeepWritingTimerTask.java:104)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2017-06-16 15:02:27,457 ERROR Timer-1 (KeepWritingTimerTask.java:109)
+unexpected exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.xhb.sockserv.meter.Meter_07Param.<init>(Meter_07Param.java:52)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.addDevices(KeepWritingTimerTask.java:205)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.handlePrdQueue(KeepWritingTimerTask.java:150)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.run(KeepWritingTimerTask.java:104)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2017-06-16 15:02:30,457 ERROR Timer-1 (KeepWritingTimerTask.java:109)
+unexpected exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.xhb.sockserv.meter.Meter_07Param.<init>(Meter_07Param.java:52)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.addDevices(KeepWritingTimerTask.java:205)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.handlePrdQueue(KeepWritingTimerTask.java:150)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.run(KeepWritingTimerTask.java:104)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2017-06-16 15:02:33,457 ERROR Timer-1 (KeepWritingTimerTask.java:109)
+unexpected exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.xhb.sockserv.meter.Meter_07Param.<init>(Meter_07Param.java:52)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.addDevices(KeepWritingTimerTask.java:205)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.handlePrdQueue(KeepWritingTimerTask.java:150)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.run(KeepWritingTimerTask.java:104)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2017-06-16 15:02:36,458 ERROR Timer-1 (KeepWritingTimerTask.java:109)
+unexpected exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.xhb.sockserv.meter.Meter_07Param.<init>(Meter_07Param.java:52)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.addDevices(KeepWritingTimerTask.java:205)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.handlePrdQueue(KeepWritingTimerTask.java:150)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.run(KeepWritingTimerTask.java:104)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2017-06-16 15:02:39,458 ERROR Timer-1 (KeepWritingTimerTask.java:109)
+unexpected exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.xhb.sockserv.meter.Meter_07Param.<init>(Meter_07Param.java:52)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.addDevices(KeepWritingTimerTask.java:205)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.handlePrdQueue(KeepWritingTimerTask.java:150)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.run(KeepWritingTimerTask.java:104)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2017-06-16 15:02:42,457 ERROR Timer-1 (KeepWritingTimerTask.java:109)
+unexpected exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.xhb.sockserv.meter.Meter_07Param.<init>(Meter_07Param.java:52)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.addDevices(KeepWritingTimerTask.java:205)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.handlePrdQueue(KeepWritingTimerTask.java:150)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.run(KeepWritingTimerTask.java:104)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2017-06-16 15:02:45,460 ERROR Timer-1 (KeepWritingTimerTask.java:109)
+unexpected exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.xhb.sockserv.meter.Meter_07Param.<init>(Meter_07Param.java:52)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.addDevices(KeepWritingTimerTask.java:205)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.handlePrdQueue(KeepWritingTimerTask.java:150)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.run(KeepWritingTimerTask.java:104)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2017-06-16 15:02:48,458 ERROR Timer-1 (KeepWritingTimerTask.java:109)
+unexpected exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.xhb.sockserv.meter.Meter_07Param.<init>(Meter_07Param.java:52)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.addDevices(KeepWritingTimerTask.java:205)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.handlePrdQueue(KeepWritingTimerTask.java:150)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.run(KeepWritingTimerTask.java:104)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2017-06-16 15:02:51,462 ERROR Timer-1 (KeepWritingTimerTask.java:109)
+unexpected exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.xhb.sockserv.meter.Meter_07Param.<init>(Meter_07Param.java:52)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.addDevices(KeepWritingTimerTask.java:205)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.handlePrdQueue(KeepWritingTimerTask.java:150)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.run(KeepWritingTimerTask.java:104)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2017-06-16 15:02:54,459 ERROR Timer-1 (KeepWritingTimerTask.java:109)
+unexpected exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.xhb.sockserv.meter.Meter_07Param.<init>(Meter_07Param.java:52)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.addDevices(KeepWritingTimerTask.java:205)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.handlePrdQueue(KeepWritingTimerTask.java:150)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.run(KeepWritingTimerTask.java:104)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2017-06-16 15:02:57,459 ERROR Timer-1 (KeepWritingTimerTask.java:109)
+unexpected exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.xhb.sockserv.meter.Meter_07Param.<init>(Meter_07Param.java:52)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.addDevices(KeepWritingTimerTask.java:205)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.handlePrdQueue(KeepWritingTimerTask.java:150)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.run(KeepWritingTimerTask.java:104)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2017-06-16 15:03:00,458 ERROR Timer-1 (KeepWritingTimerTask.java:109)
+unexpected exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.xhb.sockserv.meter.Meter_07Param.<init>(Meter_07Param.java:52)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.addDevices(KeepWritingTimerTask.java:205)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.handlePrdQueue(KeepWritingTimerTask.java:150)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.run(KeepWritingTimerTask.java:104)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2017-06-16 15:03:03,459 ERROR Timer-1 (KeepWritingTimerTask.java:109)
+unexpected exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.xhb.sockserv.meter.Meter_07Param.<init>(Meter_07Param.java:52)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.addDevices(KeepWritingTimerTask.java:205)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.handlePrdQueue(KeepWritingTimerTask.java:150)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.run(KeepWritingTimerTask.java:104)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2017-06-16 15:03:06,459 ERROR Timer-1 (KeepWritingTimerTask.java:109)
+unexpected exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.xhb.sockserv.meter.Meter_07Param.<init>(Meter_07Param.java:52)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.addDevices(KeepWritingTimerTask.java:205)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.handlePrdQueue(KeepWritingTimerTask.java:150)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.run(KeepWritingTimerTask.java:104)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2017-06-16 15:03:09,459 ERROR Timer-1 (KeepWritingTimerTask.java:109)
+unexpected exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.xhb.sockserv.meter.Meter_07Param.<init>(Meter_07Param.java:52)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.addDevices(KeepWritingTimerTask.java:205)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.handlePrdQueue(KeepWritingTimerTask.java:150)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.run(KeepWritingTimerTask.java:104)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2017-06-16 15:03:12,460 ERROR Timer-1 (KeepWritingTimerTask.java:109)
+unexpected exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.xhb.sockserv.meter.Meter_07Param.<init>(Meter_07Param.java:52)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.addDevices(KeepWritingTimerTask.java:205)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.handlePrdQueue(KeepWritingTimerTask.java:150)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.run(KeepWritingTimerTask.java:104)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2017-06-16 15:03:15,460 ERROR Timer-1 (KeepWritingTimerTask.java:109)
+unexpected exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.xhb.sockserv.meter.Meter_07Param.<init>(Meter_07Param.java:52)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.addDevices(KeepWritingTimerTask.java:205)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.handlePrdQueue(KeepWritingTimerTask.java:150)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.run(KeepWritingTimerTask.java:104)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2017-06-16 15:03:18,460 ERROR Timer-1 (KeepWritingTimerTask.java:109)
+unexpected exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.xhb.sockserv.meter.Meter_07Param.<init>(Meter_07Param.java:52)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.addDevices(KeepWritingTimerTask.java:205)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.handlePrdQueue(KeepWritingTimerTask.java:150)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.run(KeepWritingTimerTask.java:104)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2017-06-16 15:03:21,460 ERROR Timer-1 (KeepWritingTimerTask.java:109)
+unexpected exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.xhb.sockserv.meter.Meter_07Param.<init>(Meter_07Param.java:52)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.addDevices(KeepWritingTimerTask.java:205)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.handlePrdQueue(KeepWritingTimerTask.java:150)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.run(KeepWritingTimerTask.java:104)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2017-06-16 15:03:24,460 ERROR Timer-1 (KeepWritingTimerTask.java:109)
+unexpected exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.xhb.sockserv.meter.Meter_07Param.<init>(Meter_07Param.java:52)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.addDevices(KeepWritingTimerTask.java:205)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.handlePrdQueue(KeepWritingTimerTask.java:150)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.run(KeepWritingTimerTask.java:104)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2017-06-16 15:03:27,541 ERROR Timer-1 (KeepWritingTimerTask.java:109)
+unexpected exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.xhb.sockserv.meter.Meter_07Param.<init>(Meter_07Param.java:52)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.addDevices(KeepWritingTimerTask.java:205)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.handlePrdQueue(KeepWritingTimerTask.java:150)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.run(KeepWritingTimerTask.java:104)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2017-06-16 15:03:30,464 ERROR Timer-1 (KeepWritingTimerTask.java:109)
+unexpected exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.xhb.sockserv.meter.Meter_07Param.<init>(Meter_07Param.java:52)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.addDevices(KeepWritingTimerTask.java:205)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.handlePrdQueue(KeepWritingTimerTask.java:150)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.run(KeepWritingTimerTask.java:104)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2017-06-16 15:03:33,464 ERROR Timer-1 (KeepWritingTimerTask.java:109)
+unexpected exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.xhb.sockserv.meter.Meter_07Param.<init>(Meter_07Param.java:52)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.addDevices(KeepWritingTimerTask.java:205)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.handlePrdQueue(KeepWritingTimerTask.java:150)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.run(KeepWritingTimerTask.java:104)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2017-06-16 15:03:36,463 ERROR Timer-1 (KeepWritingTimerTask.java:109)
+unexpected exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.xhb.sockserv.meter.Meter_07Param.<init>(Meter_07Param.java:52)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.addDevices(KeepWritingTimerTask.java:205)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.handlePrdQueue(KeepWritingTimerTask.java:150)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.run(KeepWritingTimerTask.java:104)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2017-06-16 15:03:39,463 ERROR Timer-1 (KeepWritingTimerTask.java:109)
+unexpected exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.xhb.sockserv.meter.Meter_07Param.<init>(Meter_07Param.java:52)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.addDevices(KeepWritingTimerTask.java:205)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.handlePrdQueue(KeepWritingTimerTask.java:150)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.run(KeepWritingTimerTask.java:104)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2017-06-16 15:03:42,467 ERROR Timer-1 (KeepWritingTimerTask.java:109)
+unexpected exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.xhb.sockserv.meter.Meter_07Param.<init>(Meter_07Param.java:52)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.addDevices(KeepWritingTimerTask.java:205)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.handlePrdQueue(KeepWritingTimerTask.java:150)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.run(KeepWritingTimerTask.java:104)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2017-06-16 15:03:45,464 ERROR Timer-1 (KeepWritingTimerTask.java:109)
+unexpected exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.xhb.sockserv.meter.Meter_07Param.<init>(Meter_07Param.java:52)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.addDevices(KeepWritingTimerTask.java:205)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.handlePrdQueue(KeepWritingTimerTask.java:150)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.run(KeepWritingTimerTask.java:104)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2017-06-16 15:03:48,464 ERROR Timer-1 (KeepWritingTimerTask.java:109)
+unexpected exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.xhb.sockserv.meter.Meter_07Param.<init>(Meter_07Param.java:52)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.addDevices(KeepWritingTimerTask.java:205)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.handlePrdQueue(KeepWritingTimerTask.java:150)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.run(KeepWritingTimerTask.java:104)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2017-06-16 15:03:51,464 ERROR Timer-1 (KeepWritingTimerTask.java:109)
+unexpected exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.xhb.sockserv.meter.Meter_07Param.<init>(Meter_07Param.java:52)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.addDevices(KeepWritingTimerTask.java:205)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.handlePrdQueue(KeepWritingTimerTask.java:150)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.run(KeepWritingTimerTask.java:104)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2017-06-16 15:03:54,464 ERROR Timer-1 (KeepWritingTimerTask.java:109)
+unexpected exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.xhb.sockserv.meter.Meter_07Param.<init>(Meter_07Param.java:52)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.addDevices(KeepWritingTimerTask.java:205)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.handlePrdQueue(KeepWritingTimerTask.java:150)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.run(KeepWritingTimerTask.java:104)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2017-06-16 15:03:57,463 ERROR Timer-1 (KeepWritingTimerTask.java:109)
+unexpected exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.xhb.sockserv.meter.Meter_07Param.<init>(Meter_07Param.java:52)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.addDevices(KeepWritingTimerTask.java:205)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.handlePrdQueue(KeepWritingTimerTask.java:150)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.run(KeepWritingTimerTask.java:104)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2017-06-16 15:04:00,464 ERROR Timer-1 (KeepWritingTimerTask.java:109)
+unexpected exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.xhb.sockserv.meter.Meter_07Param.<init>(Meter_07Param.java:52)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.addDevices(KeepWritingTimerTask.java:205)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.handlePrdQueue(KeepWritingTimerTask.java:150)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.run(KeepWritingTimerTask.java:104)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2017-06-16 15:04:03,470 ERROR Timer-1 (KeepWritingTimerTask.java:109)
+unexpected exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.xhb.sockserv.meter.Meter_07Param.<init>(Meter_07Param.java:52)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.addDevices(KeepWritingTimerTask.java:205)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.handlePrdQueue(KeepWritingTimerTask.java:150)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.run(KeepWritingTimerTask.java:104)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2017-06-16 15:04:06,465 ERROR Timer-1 (KeepWritingTimerTask.java:109)
+unexpected exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.xhb.sockserv.meter.Meter_07Param.<init>(Meter_07Param.java:52)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.addDevices(KeepWritingTimerTask.java:205)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.handlePrdQueue(KeepWritingTimerTask.java:150)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.run(KeepWritingTimerTask.java:104)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2017-06-16 15:04:09,465 ERROR Timer-1 (KeepWritingTimerTask.java:109)
+unexpected exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.xhb.sockserv.meter.Meter_07Param.<init>(Meter_07Param.java:52)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.addDevices(KeepWritingTimerTask.java:205)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.handlePrdQueue(KeepWritingTimerTask.java:150)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.run(KeepWritingTimerTask.java:104)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2017-06-16 15:04:12,465 ERROR Timer-1 (KeepWritingTimerTask.java:109)
+unexpected exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.xhb.sockserv.meter.Meter_07Param.<init>(Meter_07Param.java:52)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.addDevices(KeepWritingTimerTask.java:205)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.handlePrdQueue(KeepWritingTimerTask.java:150)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.run(KeepWritingTimerTask.java:104)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2017-06-16 15:04:15,465 ERROR Timer-1 (KeepWritingTimerTask.java:109)
+unexpected exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.xhb.sockserv.meter.Meter_07Param.<init>(Meter_07Param.java:52)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.addDevices(KeepWritingTimerTask.java:205)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.handlePrdQueue(KeepWritingTimerTask.java:150)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.run(KeepWritingTimerTask.java:104)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2017-06-16 15:04:18,465 ERROR Timer-1 (KeepWritingTimerTask.java:109)
+unexpected exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.xhb.sockserv.meter.Meter_07Param.<init>(Meter_07Param.java:52)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.addDevices(KeepWritingTimerTask.java:205)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.handlePrdQueue(KeepWritingTimerTask.java:150)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.run(KeepWritingTimerTask.java:104)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2017-06-16 15:04:21,467 ERROR Timer-1 (KeepWritingTimerTask.java:109)
+unexpected exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.xhb.sockserv.meter.Meter_07Param.<init>(Meter_07Param.java:52)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.addDevices(KeepWritingTimerTask.java:205)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.handlePrdQueue(KeepWritingTimerTask.java:150)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.run(KeepWritingTimerTask.java:104)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2017-06-16 15:04:24,467 ERROR Timer-1 (KeepWritingTimerTask.java:109)
+unexpected exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.xhb.sockserv.meter.Meter_07Param.<init>(Meter_07Param.java:52)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.addDevices(KeepWritingTimerTask.java:205)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.handlePrdQueue(KeepWritingTimerTask.java:150)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.run(KeepWritingTimerTask.java:104)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2017-06-16 15:04:27,465 ERROR Timer-1 (KeepWritingTimerTask.java:109)
+unexpected exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.xhb.sockserv.meter.Meter_07Param.<init>(Meter_07Param.java:52)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.addDevices(KeepWritingTimerTask.java:205)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.handlePrdQueue(KeepWritingTimerTask.java:150)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.run(KeepWritingTimerTask.java:104)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2017-06-16 15:04:30,466 ERROR Timer-1 (KeepWritingTimerTask.java:109)
+unexpected exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.xhb.sockserv.meter.Meter_07Param.<init>(Meter_07Param.java:52)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.addDevices(KeepWritingTimerTask.java:205)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.handlePrdQueue(KeepWritingTimerTask.java:150)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.run(KeepWritingTimerTask.java:104)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2017-06-16 15:04:33,466 ERROR Timer-1 (KeepWritingTimerTask.java:109)
+unexpected exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.xhb.sockserv.meter.Meter_07Param.<init>(Meter_07Param.java:52)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.addDevices(KeepWritingTimerTask.java:205)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.handlePrdQueue(KeepWritingTimerTask.java:150)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.run(KeepWritingTimerTask.java:104)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2017-06-16 15:04:36,473 ERROR Timer-1 (KeepWritingTimerTask.java:109)
+unexpected exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.xhb.sockserv.meter.Meter_07Param.<init>(Meter_07Param.java:52)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.addDevices(KeepWritingTimerTask.java:205)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.handlePrdQueue(KeepWritingTimerTask.java:150)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.run(KeepWritingTimerTask.java:104)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2017-06-16 15:04:39,467 ERROR Timer-1 (KeepWritingTimerTask.java:109)
+unexpected exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.xhb.sockserv.meter.Meter_07Param.<init>(Meter_07Param.java:52)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.addDevices(KeepWritingTimerTask.java:205)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.handlePrdQueue(KeepWritingTimerTask.java:150)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.run(KeepWritingTimerTask.java:104)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2017-06-16 15:04:42,467 ERROR Timer-1 (KeepWritingTimerTask.java:109)
+unexpected exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.xhb.sockserv.meter.Meter_07Param.<init>(Meter_07Param.java:52)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.addDevices(KeepWritingTimerTask.java:205)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.handlePrdQueue(KeepWritingTimerTask.java:150)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.run(KeepWritingTimerTask.java:104)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2017-06-16 15:04:45,467 ERROR Timer-1 (KeepWritingTimerTask.java:109)
+unexpected exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.String.substring(String.java:1963)
+	at com.xhb.sockserv.meter.Meter_07Param.<init>(Meter_07Param.java:52)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.addDevices(KeepWritingTimerTask.java:205)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.handlePrdQueue(KeepWritingTimerTask.java:150)
+	at com.xhb.sockserv.keep.KeepWritingTimerTask.run(KeepWritingTimerTask.java:104)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)

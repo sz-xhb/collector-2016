@@ -1,0 +1,17 @@
+package com.xhb.core.entity;
+
+public enum CircuitType {
+	ELECTRICITY,
+	AIR_CONDITIONING,
+	LIGHTING,
+	POWER_SOCKET,
+	HARMONIC,
+	TEMPERATURE,
+	SWITCH,
+	RELAY,
+	RECLOSER,
+	APF_FILTER,
+	WATER,
+	STEAM
+	
+}

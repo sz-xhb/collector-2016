@@ -1,0 +1,2166 @@
+2018-03-12 13:37:23,984 INFO main (AbstractApplicationContext.java:510)
+Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@15d9bc04: startup date [Mon Mar 12 13:37:23 CST 2018]; root of context hierarchy
+2018-03-12 13:37:24,147 INFO main (XmlBeanDefinitionReader.java:315)
+Loading XML bean definitions from file [E:\project\workspace\collector-2016\meter-socket\target\classes\spring-beans-config.xml]
+2018-03-12 13:37:24,501 INFO main (XmlBeanDefinitionReader.java:315)
+Loading XML bean definitions from file [E:\project\workspace\collector-2016\meter-socket\target\classes\spring-context-config.xml]
+2018-03-12 13:37:24,931 INFO main (XmlBeanDefinitionReader.java:315)
+Loading XML bean definitions from file [E:\project\workspace\collector-2016\meter-socket\target\classes\spring-tx-config.xml]
+2018-03-12 13:37:25,231 INFO main (PropertiesLoaderSupport.java:172)
+Loading properties file from class path resource [config.properties]
+2018-03-12 13:37:25,232 INFO main (PropertiesLoaderSupport.java:172)
+Loading properties file from class path resource [jdbc.properties]
+2018-03-12 13:37:25,297 INFO main (DefaultListableBeanFactory.java:598)
+Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@2663e964: defining beans [dataSource,sessionFactory,transactionManager,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,applicationConfig,buildInfoDao,collectorStatusDAO,companyDAO,customerDAO,dataAmHarmDAO,dataElecOilDAO,dataElectricity3PhaseDAO,dataElectricityDAO,dataHarmonicDAO,dataLinbuDAO,dataRateDAO,dataSteamDAO,dataSwitchDAO,dataTemperatureDAO,dataWaterDAO,elecParamAnalyseDAO,meterStatusDAO,modbusGericProtocolDAO,packetRegisterRangeDAO,protocolTypeStandardDAO,receiptCircuitDAO,receiptCollectorDAO,receiptMeterDAO,buildInfoServiceImpl,collectorStatusServiceImpl,companyServiceImpl,customerServiceImpl,dataAmHarmServiceImpl,dataElecOilServiceImpl,dataElectricity3PhaseServiceImpl,dataElectricityServiceImpl,dataHarmonicServiceImpl,dataLingbuServiceImpl,dataRateServiceImpl,dataSteamServiceImpl,dataSwitchServiceImpl,dataTemperatureServiceImpl,dataWaterServiceImpl,elecParamAnalyseServiceImpl,meterStatusServiceImpl,modbusGericProtocolServiceImpl,packetRegisterRangeServiceImpl,protocolTypeStandardServiceImpl,receiptCircuitServiceImpl,receiptCollectorServiceImpl,receiptMeterServiceImpl,services,org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+2018-03-12 13:37:25,653 INFO main (Version.java:37)
+HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+2018-03-12 13:37:25,663 INFO main (Version.java:41)
+HHH000412: Hibernate Core {4.2.12.Final}
+2018-03-12 13:37:25,667 INFO main (Environment.java:238)
+HHH000206: hibernate.properties not found
+2018-03-12 13:37:25,670 INFO main (Environment.java:345)
+HHH000021: Bytecode provider name : javassist
+2018-03-12 13:37:26,549 INFO main (Dialect.java:130)
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-03-12 13:37:26,561 INFO main (LobCreatorBuilder.java:120)
+HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2018-03-12 13:37:27,013 INFO main (TransactionFactoryInitiator.java:68)
+HHH000399: Using default transaction strategy (direct JDBC transactions)
+2018-03-12 13:37:27,020 INFO main (ASTQueryTranslatorFactory.java:48)
+HHH000397: Using ASTQueryTranslatorFactory
+2018-03-12 13:37:28,659 INFO main (HibernateTransactionManager.java:337)
+Using DataSource [org.apache.commons.dbcp.BasicDataSource@26844abb] of Hibernate SessionFactory for HibernateTransactionManager
+2018-03-12 13:37:29,499 INFO main (ApplicationContext.java:75)
+a1
+2018-03-12 13:37:29,604 INFO main (ApplicationContext.java:102)
+{int[] data = new int[8];byte[] frame;data[0] = Integer.parseInt(receiptMeter.getMeterNo());data[1] = 0x03; data[2] = 0x00;  data[3] = 0x00;  data[4] = 0;  data[5] = 25;  int[] crc = CRC.calculateCRC(data, 6);  data[6] = crc[0];  data[7] = crc[1];  frame = new byte[data.length];  for (int i = 0; i < data.length; i++) {  	frame[i] = (byte) data[i];  }  writingFrames.add(frame); }
+2018-03-12 13:37:29,607 INFO main (ApplicationContext.java:109)
+{if (readingFrames.size() != 1) { return false; }  int[] data = new int[frame.length - 9]; for (int i = 0; i < data.length; i++) { data[i] = frame[i + 8] & 0xFF;}  int meterNo = Integer.parseInt(receiptMeter.getMeterNo());  if(meterNo != data[0]){  return false;  }  if (!CRC.isValid(data))  return false;if (data[2] == 50) { } return true;}
+2018-03-12 13:37:29,620 INFO main (ApplicationContext.java:116)
+{}
+2018-03-12 13:37:29,621 INFO main (ApplicationContext.java:117)
+{List receipCircuits = doGetReceiptCicuirt();Date now = new Date();for(int i = 0; i < receipCircuits.size() ; i++ ){ReceiptCircuit receiptCircuit = (ReceiptCircuit)receipCircuits.get(i);DataElectricity3Phase dataElectricity3Phase = null;DataElectricity dataElectricity = new DataElectricity();dataElectricity.setReceiptCircuit(receiptCircuit);dataElectricity.setReadTime(now);dataElectricity.setElectricityType(ElectricityType.AC_THREE);saveDataToDataBase(dataElectricity,dataElectricity3Phase);}}
+2018-03-12 13:37:29,623 INFO main (ApplicationContext.java:75)
+表0006
+2018-03-12 13:37:29,626 INFO main (ApplicationContext.java:102)
+{int[] data = new int[8];byte[] frame;data[0] = Integer.parseInt(receiptMeter.getMeterNo());data[1] = 0x03; data[2] = 0x00;  data[3] = 0x02;  data[4] = 0;  data[5] = 73;  int[] crc = CRC.calculateCRC(data, 6);  data[6] = crc[0];  data[7] = crc[1];  frame = new byte[data.length];  for (int i = 0; i < data.length; i++) {  	frame[i] = (byte) data[i];  }  writingFrames.add(frame); }
+2018-03-12 13:37:29,632 INFO main (ApplicationContext.java:109)
+{if (readingFrames.size() != 1) { return false; }  int[] data = new int[frame.length - 9]; for (int i = 0; i < data.length; i++) { data[i] = frame[i + 8] & 0xFF;}  int meterNo = Integer.parseInt(receiptMeter.getMeterNo());  if(meterNo != data[0]){  return false;  }  if (!CRC.isValid(data))  return false;if (data[2] == 146) { Ubb_1=data[3] * 256 + data[4] ; Ibb_1=data[5] * 256 + data[6] ; voltageA_1=data[39] * 256 + data[40] ; voltageB_1=data[41] * 256 + data[42] ; voltageC_1=data[43] * 256 + data[44] ; voltageAB_1=data[45] * 256 + data[46] ; voltageBC_1=data[47] * 256 + data[48] ; voltageCA_1=data[49] * 256 + data[50] ; currentA_1=data[51] * 256 + data[52] ; currentB_1=data[53] * 256 + data[54] ; currentC_1=data[55] * 256 + data[56] ; kwA_1=data[59] * 256 + data[60] ; kwB_1=data[61] * 256 + data[62] ; kwC_1=data[63] * 256 + data[64] ; kw_1=data[65] * 256 + data[66] ; kvarA_1=data[67] * 256 + data[68] ; kvarB_1=data[69] * 256 + data[70] ; kvar_1=data[73] * 256 + data[74] ; kvarC_1=data[71] * 256 + data[72] ; kvaA_1=data[75] * 256 + data[76] ; kvaB_1=data[77] * 256 + data[78] ; kvaC_1=data[79] * 256 + data[80] ; kva_1=data[81] * 256 + data[82] ; frequency_1=data[91] * 256 + data[92] ; kwhForward_1=data[93] * 256 * 256 * 256 + data[94] * 256 * 256 + data[95] * 256 + data[96] ; kwhReverse_1=data[99] * 256 * 256 * 256 + data[100] * 256 * 256 + data[101] * 256 + data[102] ; kwh_1=data[117] * 256 * 256 * 256 + data[118] * 256 * 256 + data[119] * 256 + data[120] ; powerFactorA_1=data[83] * 256 + data[84] ; powerFactorB_1=data[85] * 256 + data[86] ; powerFactorC_1=data[87] * 256 + data[88] ; powerFactor_1=data[89] * 256 + data[90] ; } return true;}
+2018-03-12 13:37:29,673 INFO main (ApplicationContext.java:116)
+{Ubb_1= Ubb_1;Ibb_1= Ibb_1;voltageA_1= voltageA_1* Ubb_1/10;voltageB_1= voltageB_1* Ubb_1/10;voltageC_1= voltageC_1* Ubb_1/10;voltageAB_1= voltageAB_1* Ubb_1/10;voltageBC_1= voltageBC_1* Ubb_1/10;voltageCA_1= voltageCA_1* Ubb_1/10;currentA_1= currentA_1* Ibb_1/1000;currentB_1= currentB_1* Ibb_1/1000;currentC_1= currentC_1* Ibb_1/1000;kwA_1= kwA_1/10;kwB_1= kwB_1/10;kwC_1= kwC_1/10;kw_1= kw_1/10;kvarA_1= kvarA_1/10;kvarB_1= kvarB_1/10;kvar_1= kvar_1/10;kvarC_1= kvarC_1;kvaA_1= kvaA_1;kvaB_1= kvaB_1;kvaC_1= kvaC_1;kva_1= kva_1;frequency_1= frequency_1/100;kwhForward_1= kwhForward_1;kwhReverse_1= kwhReverse_1;kwh_1= kwh_1;powerFactorA_1= powerFactorA_1;powerFactorB_1= powerFactorB_1;powerFactorC_1= powerFactorC_1;powerFactor_1= powerFactor_1;}
+2018-03-12 13:37:29,674 INFO main (ApplicationContext.java:117)
+{List receipCircuits = doGetReceiptCicuirt();Date now = new Date();for(int i = 0; i < receipCircuits.size() ; i++ ){ReceiptCircuit receiptCircuit = (ReceiptCircuit)receipCircuits.get(i);DataElectricity3Phase dataElectricity3Phase = null;DataElectricity dataElectricity = new DataElectricity();dataElectricity.setReceiptCircuit(receiptCircuit);dataElectricity.setReadTime(now);dataElectricity.setElectricityType(ElectricityType.AC_THREE);if(receiptCircuit.getCircuitNo().equals("1")){dataElectricity.setVoltageA(new Double(voltageA_1));}if(receiptCircuit.getCircuitNo().equals("1")){dataElectricity.setVoltageB(new Double(voltageB_1));}if(receiptCircuit.getCircuitNo().equals("1")){dataElectricity.setVoltageC(new Double(voltageC_1));}if(receiptCircuit.getCircuitNo().equals("1")){dataElectricity.setVoltageAB(new Double(voltageAB_1));}if(receiptCircuit.getCircuitNo().equals("1")){dataElectricity.setVoltageBC(new Double(voltageBC_1));}if(receiptCircuit.getCircuitNo().equals("1")){dataElectricity.setVoltageCA(new Double(voltageCA_1));}if(receiptCircuit.getCircuitNo().equals("1")){dataElectricity.setCurrentA(new Double(currentA_1));}if(receiptCircuit.getCircuitNo().equals("1")){dataElectricity.setCurrentB(new Double(currentB_1));}if(receiptCircuit.getCircuitNo().equals("1")){dataElectricity.setCurrentC(new Double(currentC_1));}if(receiptCircuit.getCircuitNo().equals("1")){dataElectricity.setKwA(new Double(kwA_1));}if(receiptCircuit.getCircuitNo().equals("1")){dataElectricity.setKwB(new Double(kwB_1));}if(receiptCircuit.getCircuitNo().equals("1")){dataElectricity.setKwC(new Double(kwC_1));}if(receiptCircuit.getCircuitNo().equals("1")){dataElectricity.setKw(new Double(kw_1));}if(receiptCircuit.getCircuitNo().equals("1")){dataElectricity.setKvarA(new Double(kvarA_1));}if(receiptCircuit.getCircuitNo().equals("1")){dataElectricity.setKvarB(new Double(kvarB_1));}if(receiptCircuit.getCircuitNo().equals("1")){dataElectricity.setKvar(new Double(kvar_1));}if(receiptCircuit.getCircuitNo().equals("1")){dataElectricity.setKvarC(new Double(kvarC_1));}if(receiptCircuit.getCircuitNo().equals("1")){dataElectricity.setKvaA(new Double(kvaA_1));}if(receiptCircuit.getCircuitNo().equals("1")){dataElectricity.setKvaB(new Double(kvaB_1));}if(receiptCircuit.getCircuitNo().equals("1")){dataElectricity.setKvaC(new Double(kvaC_1));}if(receiptCircuit.getCircuitNo().equals("1")){dataElectricity.setKva(new Double(kva_1));}if(receiptCircuit.getCircuitNo().equals("1")){dataElectricity.setFrequency(new Double(frequency_1));}if(receiptCircuit.getCircuitNo().equals("1")){dataElectricity.setKwhForward(new Double(kwhForward_1));}if(receiptCircuit.getCircuitNo().equals("1")){dataElectricity.setKwhReverse(new Double(kwhReverse_1));}if(receiptCircuit.getCircuitNo().equals("1")){dataElectricity.setKwh(new Double(kwh_1));}if(receiptCircuit.getCircuitNo().equals("1")){dataElectricity.setPowerFactorA(new Double(powerFactorA_1));}if(receiptCircuit.getCircuitNo().equals("1")){dataElectricity.setPowerFactorB(new Double(powerFactorB_1));}if(receiptCircuit.getCircuitNo().equals("1")){dataElectricity.setPowerFactorC(new Double(powerFactorC_1));}if(receiptCircuit.getCircuitNo().equals("1")){dataElectricity.setPowerFactor(new Double(powerFactor_1));}saveDataToDataBase(dataElectricity,dataElectricity3Phase);}}
+2018-03-12 13:37:29,676 INFO main (ApplicationContext.java:75)
+直流表
+2018-03-12 13:37:29,689 INFO main (ApplicationContext.java:102)
+{int[] data = new int[8];byte[] frame;data[0] = Integer.parseInt(receiptMeter.getMeterNo());data[1] = 0x03; data[2] = 0x10;  data[3] = 0x05;  data[4] = 0;  data[5] = 5;  int[] crc = CRC.calculateCRC(data, 6);  data[6] = crc[0];  data[7] = crc[1];  frame = new byte[data.length];  for (int i = 0; i < data.length; i++) {  	frame[i] = (byte) data[i];  }  writingFrames.add(frame); }
+2018-03-12 13:37:29,698 INFO main (ApplicationContext.java:109)
+{if (readingFrames.size() != 1) { return false; }  int[] data = new int[frame.length - 9]; for (int i = 0; i < data.length; i++) { data[i] = frame[i + 8] & 0xFF;}  int meterNo = Integer.parseInt(receiptMeter.getMeterNo());  if(meterNo != data[0]){  return false;  }  if (!CRC.isValid(data))  return false;if (data[2] == 10) { voltage_1=data[3] * 256 + data[4] ; current_1=data[5] * 256 + data[6] ; kw_1=data[7] * 256 + data[8] ; kwh_1=data[9] * 256 * 256 * 256 + data[10] * 256 * 256 + data[11] * 256 + data[12] ; } return true;}
+2018-03-12 13:37:29,702 INFO main (ApplicationContext.java:116)
+{voltage_1= voltage_1;current_1= current_1;kw_1= kw_1;kwh_1= kwh_1;}
+2018-03-12 13:37:29,702 INFO main (ApplicationContext.java:117)
+{List receipCircuits = doGetReceiptCicuirt();Date now = new Date();for(int i = 0; i < receipCircuits.size() ; i++ ){ReceiptCircuit receiptCircuit = (ReceiptCircuit)receipCircuits.get(i);DataElectricity3Phase dataElectricity3Phase = null;DataElectricity dataElectricity = new DataElectricity();dataElectricity.setReceiptCircuit(receiptCircuit);dataElectricity.setReadTime(now);dataElectricity.setElectricityType(ElectricityType.DC);if(receiptCircuit.getCircuitNo().equals("1")){dataElectricity.setVoltage(new Double(voltage_1));}if(receiptCircuit.getCircuitNo().equals("1")){dataElectricity.setCurrent(new Double(current_1));}if(receiptCircuit.getCircuitNo().equals("1")){dataElectricity.setKw(new Double(kw_1));}if(receiptCircuit.getCircuitNo().equals("1")){dataElectricity.setKwh(new Double(kwh_1));}saveDataToDataBase(dataElectricity,dataElectricity3Phase);}}
+2018-03-12 13:37:29,703 INFO main (ApplicationContext.java:75)
+表0007
+2018-03-12 13:37:29,707 INFO main (ApplicationContext.java:102)
+{int[] data = new int[8];byte[] frame;data[0] = Integer.parseInt(receiptMeter.getMeterNo());data[1] = 0x03; data[2] = 0x00;  data[3] = 0x20;  data[4] = 0;  data[5] = 4;  int[] crc = CRC.calculateCRC(data, 6);  data[6] = crc[0];  data[7] = crc[1];  frame = new byte[data.length];  for (int i = 0; i < data.length; i++) {  	frame[i] = (byte) data[i];  }  writingFrames.add(frame);  data[2] = 0x10;  data[3] = 0x80;  data[4] = 0;  data[5] = 2;  int[] crc = CRC.calculateCRC(data, 6);  data[6] = crc[0];  data[7] = crc[1];  frame = new byte[data.length];  for (int i = 0; i < data.length; i++) {  	frame[i] = (byte) data[i];  }  writingFrames.add(frame);  data[2] = 0x20;  data[3] = 0x60;  data[4] = 0;  data[5] = 6;  int[] crc = CRC.calculateCRC(data, 6);  data[6] = crc[0];  data[7] = crc[1];  frame = new byte[data.length];  for (int i = 0; i < data.length; i++) {  	frame[i] = (byte) data[i];  }  writingFrames.add(frame); }
+2018-03-12 13:37:29,710 INFO main (ApplicationContext.java:109)
+{if (readingFrames.size() != 3) { return false; }  int[] data = new int[frame.length - 9]; for (int i = 0; i < data.length; i++) { data[i] = frame[i + 8] & 0xFF;}  int meterNo = Integer.parseInt(receiptMeter.getMeterNo());  if(meterNo != data[0]){  return false;  }  if (!CRC.isValid(data))  return false;if (data[2] == 8) { voltage_1=data[3] * 256 + data[4] ; current_1=data[5] * 256 + data[6] ; kw_1=data[7] * 256 + data[8] ; frequency_1=data[9] * 256 + data[10] ; }if (data[2] == 4) { Ubb_1=data[3] * 256 + data[4] ; Ibb_1=data[5] * 256 + data[6] ; }if (data[2] == 12) { kwhForward_1=data[3] * 256 * 256 * 256 + data[4] * 256 * 256 + data[5] * 256 + data[6] ; kwhReverse_1=data[7] * 256 * 256 * 256 + data[8] * 256 * 256 + data[9] * 256 + data[10] ; kwh_1=data[11] * 256 * 256 * 256 + data[12] * 256 * 256 + data[13] * 256 + data[14] ; } return true;}
+2018-03-12 13:37:29,716 INFO main (ApplicationContext.java:116)
+{voltage_1= voltage_1* Ubb_1/10;current_1= current_1* Ibb_1/100;kw_1= kw_1* Ubb_1* Ibb_1/1000;frequency_1= frequency_1/100;Ubb_1= Ubb_1;Ibb_1= Ibb_1;kwhForward_1= kwhForward_1* Ubb_1* Ibb_1/100;kwhReverse_1= kwhReverse_1* Ubb_1* Ibb_1/100;kwh_1= kwh_1* Ubb_1* Ibb_1/100;}
+2018-03-12 13:37:29,716 INFO main (ApplicationContext.java:117)
+{List receipCircuits = doGetReceiptCicuirt();Date now = new Date();for(int i = 0; i < receipCircuits.size() ; i++ ){ReceiptCircuit receiptCircuit = (ReceiptCircuit)receipCircuits.get(i);DataElectricity3Phase dataElectricity3Phase = null;DataElectricity dataElectricity = new DataElectricity();dataElectricity.setReceiptCircuit(receiptCircuit);dataElectricity.setReadTime(now);dataElectricity.setElectricityType(ElectricityType.AC_SINGLE);if(receiptCircuit.getCircuitNo().equals("1")){dataElectricity.setVoltage(new Double(voltage_1));}if(receiptCircuit.getCircuitNo().equals("1")){dataElectricity.setCurrent(new Double(current_1));}if(receiptCircuit.getCircuitNo().equals("1")){dataElectricity.setKw(new Double(kw_1));}if(receiptCircuit.getCircuitNo().equals("1")){dataElectricity.setFrequency(new Double(frequency_1));}if(receiptCircuit.getCircuitNo().equals("1")){dataElectricity.setKwhForward(new Double(kwhForward_1));}if(receiptCircuit.getCircuitNo().equals("1")){dataElectricity.setKwhReverse(new Double(kwhReverse_1));}if(receiptCircuit.getCircuitNo().equals("1")){dataElectricity.setKwh(new Double(kwh_1));}saveDataToDataBase(dataElectricity,dataElectricity3Phase);}}
+2018-03-12 14:50:38,655 WARN Timer-2 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[55 aa 21 00 00]
+2018-03-12 14:50:40,220 WARN nioEventLoopGroup-3-1 (SocketServerHandler.java:114)
+channelRead0：[68 01 00 20 18 03 12 01 b7 16]
+2018-03-12 14:50:40,288 WARN nioEventLoopGroup-3-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[01]
+2018-03-12 14:50:58,644 WARN Timer-2 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[55 aa 23 00 00]
+2018-03-12 14:51:06,136 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:51:09,136 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:51:12,134 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:51:15,138 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:51:18,133 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:51:21,136 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:51:24,131 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:51:27,133 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:51:30,134 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:51:33,137 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:51:36,133 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:51:39,132 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:51:42,137 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:51:45,132 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:51:48,134 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:51:51,138 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:51:54,132 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:51:57,139 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:52:00,134 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:52:03,138 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:52:06,138 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:52:09,132 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:52:12,138 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:52:15,134 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:52:18,139 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:52:21,133 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:52:24,141 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:52:27,134 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:52:30,134 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:52:33,135 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:52:36,134 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:52:39,141 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:52:42,134 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:52:45,140 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:52:48,134 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:52:51,141 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:52:54,136 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:52:57,136 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:53:00,154 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:53:03,136 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:53:06,136 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:53:09,142 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:53:12,144 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:53:15,142 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:53:18,137 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:53:21,142 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:53:24,137 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:53:27,138 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:53:30,137 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:53:33,143 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:53:36,137 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:53:39,143 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:53:42,138 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:53:45,144 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:53:48,142 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:53:51,144 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:53:54,138 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:53:57,138 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:54:00,145 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:54:03,142 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:54:06,141 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:54:09,141 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:54:12,140 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:54:15,139 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:54:18,141 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:54:21,140 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:54:24,140 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:54:27,140 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:54:30,146 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:54:33,140 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:54:36,142 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:54:39,141 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:54:40,759 WARN nioEventLoopGroup-3-1 (SocketServerHandler.java:114)
+channelRead0：[68 02 00 20 18 03 12 01 b8 16]
+2018-03-12 14:54:40,762 WARN nioEventLoopGroup-3-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[02]
+2018-03-12 14:54:42,142 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:54:45,141 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:54:48,143 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:54:51,142 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:54:54,148 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:54:57,142 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:55:00,143 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:55:03,142 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:55:06,145 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:55:09,149 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:55:12,143 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:55:15,144 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:55:18,143 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:55:21,149 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:55:24,143 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:55:27,152 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:55:30,144 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:55:33,150 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:55:36,145 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:55:39,152 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:55:42,144 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:55:45,146 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:55:48,145 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:55:51,145 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:55:54,146 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:55:57,151 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:56:00,145 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:56:03,152 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:56:06,146 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:56:09,146 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:56:12,146 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:56:15,146 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:56:18,146 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:56:21,148 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:56:24,153 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:56:27,147 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:56:30,153 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:56:33,147 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:56:36,148 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:56:39,154 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:56:42,148 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:56:45,154 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:56:48,149 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:56:51,154 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:56:54,150 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:56:57,153 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:57:00,149 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:57:03,168 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:57:06,150 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:57:09,151 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:57:12,151 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:57:15,150 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:57:18,152 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:57:21,156 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:57:24,151 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:57:27,152 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:57:30,156 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:57:33,151 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:57:36,155 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:57:39,153 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:57:42,152 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:57:45,151 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:57:48,152 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:57:51,152 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:57:54,153 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:57:57,152 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:58:00,152 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:58:03,153 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:58:06,154 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:58:09,153 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:58:12,153 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:58:15,153 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:58:18,153 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:58:21,154 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:58:24,154 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:58:27,154 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:58:30,154 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:58:33,159 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:58:36,155 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:58:39,161 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:58:42,155 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:58:45,161 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:58:45,820 WARN nioEventLoopGroup-3-1 (SocketServerHandler.java:114)
+channelRead0：[68 02 00 20 18 03 12 01 b8 16]
+2018-03-12 14:58:45,828 WARN nioEventLoopGroup-3-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[02]
+2018-03-12 14:58:48,155 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:58:51,161 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:58:54,155 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:58:57,162 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:59:00,157 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:59:03,156 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:59:06,157 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:59:09,156 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:59:12,162 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:59:15,157 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:59:18,179 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:59:21,162 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:59:24,164 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:59:27,162 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:59:30,163 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:59:33,163 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:59:36,164 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:59:39,169 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:59:42,163 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:59:45,164 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:59:48,163 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:59:51,166 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:59:54,165 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 14:59:57,170 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:00:00,164 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:00:03,169 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:00:06,165 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:00:09,165 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:00:12,166 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:00:15,165 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:00:18,170 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:00:21,165 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:00:24,167 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:00:27,167 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:00:30,166 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:00:33,166 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:00:36,168 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:00:39,166 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:00:42,169 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:00:45,168 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:00:48,173 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:00:51,167 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:00:54,168 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:00:57,167 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:01:00,169 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:01:03,168 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:01:06,169 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:01:09,169 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:01:12,170 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:01:15,167 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:01:18,169 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:01:21,175 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:01:24,169 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:01:27,175 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:01:30,169 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:01:33,174 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:01:36,170 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:01:39,176 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:01:42,178 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:01:45,175 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:01:48,180 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:01:51,181 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:01:54,175 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:01:57,181 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:02:00,175 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:02:03,179 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:02:06,177 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:02:09,176 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:02:12,176 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:02:15,176 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:02:18,176 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:02:21,176 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:02:24,176 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:02:27,178 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:02:30,178 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:02:33,177 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:02:36,177 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:02:39,178 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:02:42,177 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:02:45,178 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:02:48,181 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:02:50,992 WARN nioEventLoopGroup-3-1 (SocketServerHandler.java:114)
+channelRead0：[68 02 00 20 18 03 12 01 b8 16]
+2018-03-12 15:02:51,000 WARN nioEventLoopGroup-3-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[02]
+2018-03-12 15:02:51,178 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:02:54,178 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:02:57,179 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:03:00,178 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:03:03,179 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:03:06,179 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:03:09,179 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:03:12,179 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:03:15,178 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:03:18,179 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:03:21,180 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:03:24,180 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:03:27,180 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:03:30,180 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:03:33,180 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:03:36,181 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:03:39,183 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:03:42,181 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:03:45,181 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:03:48,181 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:03:51,181 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:03:54,182 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:03:57,182 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:04:00,183 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:04:03,182 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:04:06,185 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:04:09,182 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:04:12,183 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:04:15,188 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:04:18,183 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:04:21,183 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:04:24,183 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:04:27,188 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:04:30,184 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:04:33,184 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:04:36,184 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:04:39,184 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:04:42,184 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:04:45,184 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:04:48,185 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:04:51,185 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:04:54,185 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:04:57,185 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:05:00,185 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:05:03,185 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:05:06,192 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:05:09,187 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:05:12,186 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:05:15,186 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:05:18,186 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:05:21,187 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:05:24,187 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:05:27,187 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:05:30,187 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:05:33,187 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:05:36,187 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:05:39,188 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:05:42,189 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:05:45,193 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:05:48,188 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:05:51,188 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:05:54,188 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:05:57,189 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:06:00,189 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:06:03,189 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:06:06,189 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:06:09,189 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:06:12,189 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:06:15,195 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:06:18,190 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:06:21,189 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:06:24,190 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:06:27,190 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:06:30,190 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:06:33,191 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:06:36,191 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:06:39,191 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:06:42,191 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:06:45,191 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:06:48,192 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:06:51,192 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:06:54,192 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:06:56,082 WARN nioEventLoopGroup-3-1 (SocketServerHandler.java:114)
+channelRead0：[68 02 00 20 18 03 12 01 b8 16]
+2018-03-12 15:06:56,085 WARN nioEventLoopGroup-3-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[02]
+2018-03-12 15:06:57,192 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:07:00,192 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:07:03,192 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:07:06,198 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:07:09,193 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:07:12,193 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:07:15,193 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:07:18,193 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:07:21,193 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:07:24,194 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:07:27,194 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:07:30,194 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:07:33,194 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:07:36,198 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:07:39,194 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:07:42,194 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:07:45,195 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:07:48,195 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:07:51,195 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:07:54,195 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:07:57,195 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:08:00,196 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:08:03,196 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:08:06,196 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:08:09,196 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:08:12,196 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:08:15,196 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:08:18,197 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:08:21,197 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:08:24,197 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:08:27,197 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:08:30,197 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:08:33,198 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:08:36,198 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:08:39,198 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:08:42,198 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:08:45,198 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:08:48,198 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:08:51,199 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:08:54,199 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:08:57,199 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:09:00,199 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:09:03,199 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:09:06,199 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:09:09,200 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:09:12,200 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:09:15,200 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:09:18,200 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:09:21,201 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:09:24,201 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:09:27,203 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:09:30,202 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:09:33,202 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:09:36,202 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:09:39,202 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:09:42,203 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:09:45,203 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:09:48,203 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:09:51,203 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:09:54,203 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:09:57,203 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:10:00,203 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:10:03,204 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:10:06,204 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:10:09,204 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:10:12,204 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:10:15,204 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:10:18,205 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:10:21,205 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:10:24,205 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:10:27,205 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:10:30,205 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:10:33,205 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:10:36,206 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:10:39,206 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:10:42,206 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:10:45,206 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:10:48,206 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:10:51,231 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:10:54,248 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:10:57,233 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:11:00,234 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:11:01,287 WARN nioEventLoopGroup-3-1 (SocketServerHandler.java:114)
+channelRead0：[68 02 00 20 18 03 12 01 b8 16]
+2018-03-12 15:11:01,290 WARN nioEventLoopGroup-3-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[02]
+2018-03-12 15:11:03,235 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:11:06,235 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:11:09,238 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:11:12,235 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:11:15,235 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:11:18,235 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:11:21,235 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:11:24,235 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:11:27,235 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:11:30,236 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:11:33,238 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:11:36,236 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:11:39,236 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:11:42,236 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:11:45,236 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:11:48,237 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:11:51,237 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:11:54,237 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:11:57,237 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:12:00,237 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:12:03,238 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:12:06,238 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:12:09,237 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:12:12,238 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:12:15,238 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:12:18,238 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:12:21,239 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:12:24,239 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:12:27,239 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:12:30,239 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:12:33,239 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:12:36,239 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:12:39,240 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:12:42,240 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:12:45,239 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:12:48,240 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:12:51,240 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:12:54,240 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:12:57,241 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:13:00,241 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:13:03,241 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:13:06,241 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:13:09,241 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:13:12,241 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:13:15,242 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:13:18,242 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:13:21,242 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:13:24,242 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:13:27,242 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:13:30,242 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:13:33,243 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:13:36,243 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:13:39,243 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:13:42,243 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:13:45,243 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:13:48,244 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:13:51,244 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:13:54,244 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:13:57,244 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:14:00,244 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:14:03,243 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:14:06,245 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:14:09,245 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:14:12,244 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:14:15,245 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:14:18,245 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:14:21,245 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:14:24,246 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:14:27,246 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:14:30,246 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:14:33,246 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:14:36,246 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:14:39,246 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:14:42,247 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:14:45,247 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:14:48,247 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:14:51,247 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:14:54,247 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:14:57,247 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:15:00,248 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:15:03,248 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:15:06,248 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:15:06,384 WARN nioEventLoopGroup-3-1 (SocketServerHandler.java:114)
+channelRead0：[68 02 00 20 18 03 12 01 b8 16]
+2018-03-12 15:15:06,386 WARN nioEventLoopGroup-3-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[02]
+2018-03-12 15:15:09,248 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:15:12,248 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:15:15,249 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:15:18,249 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:15:21,254 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:15:24,249 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:15:27,249 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:15:30,249 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:15:33,250 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:15:36,250 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:15:39,250 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:15:42,250 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:15:45,250 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:15:48,250 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:15:51,251 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:15:54,251 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:15:57,251 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:16:00,251 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:16:03,251 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:16:06,251 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:16:09,253 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:16:12,252 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:16:15,252 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:16:18,257 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:16:21,252 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:16:24,252 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:16:27,253 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:16:30,253 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:16:33,253 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:16:36,253 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:16:39,253 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:16:42,253 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:16:45,254 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:16:48,254 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:16:51,254 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:16:54,254 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:16:57,254 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:17:00,254 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:17:03,254 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:17:06,255 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:17:09,255 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:17:12,255 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:17:15,255 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:17:18,256 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:17:21,255 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:17:24,256 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:17:27,256 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:17:30,256 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:17:33,256 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:17:36,257 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:17:39,257 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:17:42,257 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:17:45,257 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:17:48,257 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:17:51,262 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:17:54,258 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:17:57,258 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:18:00,258 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:18:03,258 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:18:06,258 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:18:09,258 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:18:12,271 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:18:15,259 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:18:18,259 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:18:21,259 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:18:24,259 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:18:27,259 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:18:30,260 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:18:33,260 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:18:36,260 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:18:39,260 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:18:42,260 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:18:45,261 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:18:48,261 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:18:51,261 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:18:54,261 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:18:57,261 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:19:00,260 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:19:03,262 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:19:06,262 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:19:09,262 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:19:11,466 WARN nioEventLoopGroup-3-1 (SocketServerHandler.java:114)
+channelRead0：[68 02 00 20 18 03 12 01 b8 16]
+2018-03-12 15:19:11,468 WARN nioEventLoopGroup-3-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[02]
+2018-03-12 15:19:12,262 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:19:15,262 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:19:18,262 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:19:21,263 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:19:24,263 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:19:27,263 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:19:30,263 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:19:33,263 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:19:36,263 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:19:39,264 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:19:42,264 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:19:45,264 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:19:48,264 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:19:51,264 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:19:54,264 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:19:57,265 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:20:00,265 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:20:03,265 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:20:06,265 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:20:09,265 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:20:12,265 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:20:15,266 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:20:18,266 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:20:21,266 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:20:24,266 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:20:27,266 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:20:30,267 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:20:33,267 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:20:36,267 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:20:39,267 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:20:42,267 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:20:45,267 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:20:48,268 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:20:51,268 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:20:54,268 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:20:57,268 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:21:00,268 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:21:03,267 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:21:06,269 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:21:09,269 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:21:12,269 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:21:15,269 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:21:18,269 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:21:21,269 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:21:24,270 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:21:27,270 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:21:30,270 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:21:33,270 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:21:36,270 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:21:39,270 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:21:42,271 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:21:45,271 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:21:48,271 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:21:51,271 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:21:54,271 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:21:57,271 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:22:00,272 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:22:03,272 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:22:06,272 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:22:09,272 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:22:12,272 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:22:15,273 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:22:18,273 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:22:21,273 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:22:24,273 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:22:27,273 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:22:30,273 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:22:33,274 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:22:36,274 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:22:39,274 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:22:42,273 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:22:45,274 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:22:48,274 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:22:51,275 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:22:54,280 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:22:57,275 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:23:00,275 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:23:03,275 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:23:06,274 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:23:09,276 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:23:12,276 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:23:15,276 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:23:16,547 WARN nioEventLoopGroup-3-1 (SocketServerHandler.java:114)
+channelRead0：[68 02 00 20 18 03 12 01 b8 16]
+2018-03-12 15:23:16,549 WARN nioEventLoopGroup-3-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[02]
+2018-03-12 15:23:18,276 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:23:21,276 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:23:24,276 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:23:27,278 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:23:30,277 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:23:33,276 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:23:36,277 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:23:39,277 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:23:42,277 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:23:45,278 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:23:48,277 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:23:51,278 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:23:54,278 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:23:57,278 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:24:00,279 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:24:03,279 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:24:06,279 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:24:09,278 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:24:12,279 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:24:15,279 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:24:18,280 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:24:21,280 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:24:24,280 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:24:27,280 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:24:30,280 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:24:33,280 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:24:36,281 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:24:39,357 INFO Timer-1 (KeepWritingTimerTask.java:449)
+send msg to 2018031201
+2018-03-12 15:24:39,357 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[01 03 10 00 00 42 c1 3b]
+2018-03-12 15:25:42,291 INFO Timer-1 (KeepWritingTimerTask.java:449)
+send msg to 2018031201
+2018-03-12 15:25:42,291 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[01 03 10 00 00 42 c1 3b]
+2018-03-12 15:26:45,299 INFO Timer-1 (KeepWritingTimerTask.java:449)
+send msg to 2018031201
+2018-03-12 15:26:45,299 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[01 03 10 00 00 42 c1 3b]
+2018-03-12 15:27:21,707 WARN nioEventLoopGroup-3-1 (SocketServerHandler.java:114)
+channelRead0：[68 02 00 20 18 03 12 01 b8 16]
+2018-03-12 15:27:21,781 WARN nioEventLoopGroup-3-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[02]
+2018-03-12 15:27:48,298 INFO Timer-1 (KeepWritingTimerTask.java:449)
+send msg to 2018031201
+2018-03-12 15:27:48,298 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[01 03 10 00 00 42 c1 3b]
+2018-03-12 15:28:51,300 INFO Timer-1 (KeepWritingTimerTask.java:449)
+send msg to 2018031201
+2018-03-12 15:28:51,300 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[01 03 10 00 00 42 c1 3b]
+2018-03-12 15:29:54,299 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:29:57,299 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:30:00,299 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:30:03,299 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:30:06,304 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:30:09,300 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:30:12,300 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:30:15,300 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:30:18,300 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:30:21,300 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:30:24,300 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:30:27,301 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:30:30,301 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:30:33,301 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:30:36,301 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:30:39,301 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:30:42,302 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:30:45,302 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:30:48,307 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:30:51,302 WARN Timer-1 (KeepWritingTimerTask.java:139)
+2018031201 not found
+2018-03-12 15:30:54,311 INFO Timer-1 (KeepWritingTimerTask.java:449)
+send msg to 2018031201
+2018-03-12 15:30:54,311 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[68 56 12 84 03 50 32 68 11 04 39 36 33 37 2f 16]
+2018-03-12 15:31:26,848 WARN nioEventLoopGroup-3-1 (SocketServerHandler.java:114)
+channelRead0：[68 02 00 20 18 03 12 01 b8 16]
+2018-03-12 15:31:26,865 WARN nioEventLoopGroup-3-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[02]
+2018-03-12 15:31:57,311 INFO Timer-1 (KeepWritingTimerTask.java:449)
+send msg to 2018031201
+2018-03-12 15:31:57,312 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[68 56 12 84 03 50 32 68 11 04 39 36 33 37 2f 16]
+2018-03-12 15:33:00,319 INFO Timer-1 (KeepWritingTimerTask.java:449)
+send msg to 2018031201
+2018-03-12 15:33:00,319 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[68 56 12 84 03 50 32 68 11 04 39 36 33 37 2f 16]
+2018-03-12 15:33:12,778 WARN nioEventLoopGroup-3-2 (SocketServerHandler.java:114)
+channelRead0：[68 01 00 20 18 03 12 01 b7 16]
+2018-03-12 15:33:12,802 WARN nioEventLoopGroup-3-2 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[01]
+2018-03-12 15:33:15,441 WARN Timer-3 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[55 aa 21 00 00]
+2018-03-12 15:33:35,436 WARN Timer-3 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[55 aa 23 00 00]
+2018-03-12 15:33:42,323 INFO Timer-1 (KeepWritingTimerTask.java:449)
+send msg to 2018031201
+2018-03-12 15:33:42,323 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[68 56 12 84 03 50 32 68 11 04 39 36 33 37 2f 16]
+2018-03-12 15:33:46,610 WARN nioEventLoopGroup-3-2 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 18 03 12 01 fe fe fe fe 68 56 12 84 03 50 32 68 91 07 39 36 33 37 34 33 33 4c 16 16]
+2018-03-12 15:33:48,310 INFO Timer-1 (KeepWritingTimerTask.java:449)
+send msg to 2018031201
+2018-03-12 15:33:48,310 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[68 56 12 84 03 50 32 68 11 04 3a 36 33 37 30 16]
+2018-03-12 15:33:58,631 WARN nioEventLoopGroup-3-2 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 18 03 12 01 fe fe fe fe 68 56 12 84 03 50 32 68 91 07 3a 36 33 37 34 33 33 4d 16 16]
+2018-03-12 15:34:00,311 INFO Timer-1 (KeepWritingTimerTask.java:449)
+send msg to 2018031201
+2018-03-12 15:34:00,311 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[68 56 12 84 03 50 32 68 1f 04 32 33 33 35 31 16]
+2018-03-12 15:34:09,610 WARN nioEventLoopGroup-3-2 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 18 03 12 01 fe fe fe fe 68 56 12 84 03 50 32 68 9f 0a 32 33 33 35 33 33 33 33 33 33 e9 16 16]
+2018-03-12 15:34:12,312 INFO Timer-1 (KeepWritingTimerTask.java:449)
+send msg to 2018031201
+2018-03-12 15:34:12,312 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[68 56 12 84 03 50 32 68 11 04 33 32 34 35 24 16]
+2018-03-12 15:34:14,611 WARN nioEventLoopGroup-3-2 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 18 03 12 01 fe fe fe fe 68 56 12 84 03 50 32 68 91 0a 33 32 34 35 39 55 39 55 39 55 54 16 16]
+2018-03-12 15:34:15,312 INFO Timer-1 (KeepWritingTimerTask.java:449)
+send msg to 2018031201
+2018-03-12 15:34:15,312 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[68 56 12 84 03 50 32 68 11 04 33 32 35 35 25 16]
+2018-03-12 15:34:20,311 WARN nioEventLoopGroup-3-2 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 18 03 12 01 fe fe fe fe 68 56 12 84 03 50 32 68 91 0d 33 32 35 35 33 33 33 33 33 33 33 33 33 79 16 16]
+2018-03-12 15:34:21,312 INFO Timer-1 (KeepWritingTimerTask.java:449)
+send msg to 2018031201
+2018-03-12 15:34:21,312 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[68 56 12 84 03 50 32 68 11 04 33 32 36 35 26 16]
+2018-03-12 15:34:25,917 WARN nioEventLoopGroup-3-2 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 18 03 12 01 fe fe fe fe 68 56 12 84 03 50 32 68 91 10 33 32 36 35 33 33 33 33 33 33 33 33 33 33 33 33 16 16 16]
+2018-03-12 15:34:27,312 INFO Timer-1 (KeepWritingTimerTask.java:449)
+send msg to 2018031201
+2018-03-12 15:34:27,312 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[68 56 12 84 03 50 32 68 11 04 33 32 37 35 27 16]
+2018-03-12 15:34:31,391 WARN nioEventLoopGroup-3-2 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 18 03 12 01 fe fe fe fe 68 56 12 84 03 50 32 68 91 10 33 32 37 35 33 33 33 33 33 33 33 33 33 33 33 33 17 16 16]
+2018-03-12 15:34:33,313 INFO Timer-1 (KeepWritingTimerTask.java:449)
+send msg to 2018031201
+2018-03-12 15:34:33,313 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[68 56 12 84 03 50 32 68 11 04 33 32 39 35 29 16]
+2018-03-12 15:34:36,951 WARN nioEventLoopGroup-3-2 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 18 03 12 01 fe fe fe fe 68 56 12 84 03 50 32 68 91 0c 33 32 39 35 33 43 33 43 33 43 33 43 89 16 16]
+2018-03-12 15:34:39,313 INFO Timer-1 (KeepWritingTimerTask.java:449)
+send msg to 2018031201
+2018-03-12 15:34:39,313 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[68 56 12 84 03 50 32 68 11 04 33 33 33 33 22 16]
+2018-03-12 15:34:42,511 WARN nioEventLoopGroup-3-2 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 18 03 12 01 fe fe fe fe 68 56 12 84 03 50 32 68 91 08 33 33 33 33 33 33 33 33 72 16 16]
+2018-03-12 15:34:45,313 INFO Timer-1 (KeepWritingTimerTask.java:449)
+send msg to 2018031201
+2018-03-12 15:34:45,313 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[68 56 12 84 03 50 32 68 11 04 33 33 34 33 23 16]
+2018-03-12 15:34:48,471 WARN nioEventLoopGroup-3-2 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 18 03 12 01 fe fe fe fe 68 56 12 84 03 50 32 68 91 08 33 33 34 33 33 33 33 33 73 16 16]
+2018-03-12 15:34:51,314 INFO Timer-1 (KeepWritingTimerTask.java:449)
+send msg to 2018031201
+2018-03-12 15:34:51,314 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[68 56 12 84 03 50 32 68 11 04 33 33 35 33 24 16]
+2018-03-12 15:34:55,854 WARN nioEventLoopGroup-3-2 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 18 03 12 01 fe fe fe fe 68 56 12 84 03 50 32 68 91 08 33 33 35 33 33 33 33 33 74 16 16]
+2018-03-12 15:34:57,314 INFO Timer-1 (KeepWritingTimerTask.java:449)
+send msg to 2018031201
+2018-03-12 15:34:57,315 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[68 56 12 84 03 50 32 68 11 04 35 33 b3 35 a6 16]
+2018-03-12 15:35:01,351 WARN nioEventLoopGroup-3-2 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 18 03 12 01 fe fe fe fe 68 56 12 84 03 50 32 68 91 06 35 33 b3 35 cc 7c 70 16 16]
+2018-03-12 15:35:03,327 INFO Timer-1 (KeepWritingTimerTask.java:449)
+send msg to 2018031201
+2018-03-12 15:35:03,327 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[68 56 12 84 03 50 32 68 11 04 39 36 33 37 2f 16]
+2018-03-12 15:35:06,777 WARN nioEventLoopGroup-3-2 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 18 03 12 01 fe fe fe fe 68 56 12 84 03 50 32 68 91 07 39 36 33 37 34 33 33 4c 16 16]
+2018-03-12 15:35:09,315 INFO Timer-1 (KeepWritingTimerTask.java:449)
+send msg to 2018031201
+2018-03-12 15:35:09,315 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[68 56 12 84 03 50 32 68 11 04 3a 36 33 37 30 16]
+2018-03-12 15:35:12,411 WARN nioEventLoopGroup-3-2 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 18 03 12 01 fe fe fe fe 68 56 12 84 03 50 32 68 91 07 3a 36 33 37 34 33 33 4d 16 16]
+2018-03-12 15:35:15,315 INFO Timer-1 (KeepWritingTimerTask.java:449)
+send msg to 2018031201
+2018-03-12 15:35:15,315 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[68 56 12 84 03 50 32 68 1f 04 32 33 33 35 31 16]
+2018-03-12 15:35:17,714 WARN nioEventLoopGroup-3-2 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 18 03 12 01 fe fe fe fe 68 56 12 84 03 50 32 68 9f 0a 32 33 33 35 33 33 33 33 33 33 e9 16 16]
+2018-03-12 15:35:18,315 INFO Timer-1 (KeepWritingTimerTask.java:449)
+send msg to 2018031201
+2018-03-12 15:35:18,315 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[68 56 12 84 03 50 32 68 11 04 33 32 34 35 24 16]
+2018-03-12 15:35:23,272 WARN nioEventLoopGroup-3-2 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 18 03 12 01 fe fe fe fe 68 56 12 84 03 50 32 68 91 0a 33 32 34 35 39 55 39 55 39 55 54 16 16]
+2018-03-12 15:35:24,316 INFO Timer-1 (KeepWritingTimerTask.java:449)
+send msg to 2018031201
+2018-03-12 15:35:24,316 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[68 56 12 84 03 50 32 68 11 04 33 32 35 35 25 16]
+2018-03-12 15:35:29,011 WARN nioEventLoopGroup-3-2 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 18 03 12 01 fe fe fe fe 68 56 12 84 03 50 32 68 91 0d 33 32 35 35 33 33 33 33 33 33 33 33 33 79 16 16]
+2018-03-12 15:35:30,316 INFO Timer-1 (KeepWritingTimerTask.java:449)
+send msg to 2018031201
+2018-03-12 15:35:30,316 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[68 56 12 84 03 50 32 68 11 04 33 32 36 35 26 16]
+2018-03-12 15:35:34,371 WARN nioEventLoopGroup-3-2 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 18 03 12 01 fe fe fe fe 68 56 12 84 03 50 32 68 91 10 33 32 36 35 33 33 33 33 33 33 33 33 33 33 33 33 16 16 16]
+2018-03-12 15:35:36,316 INFO Timer-1 (KeepWritingTimerTask.java:449)
+send msg to 2018031201
+2018-03-12 15:35:36,316 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[68 56 12 84 03 50 32 68 11 04 33 32 37 35 27 16]
+2018-03-12 15:35:40,031 WARN nioEventLoopGroup-3-2 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 18 03 12 01 fe fe fe fe 68 56 12 84 03 50 32 68 91 10 33 32 37 35 33 33 33 33 33 33 33 33 33 33 33 33 17 16 16]
+2018-03-12 15:35:42,317 INFO Timer-1 (KeepWritingTimerTask.java:449)
+send msg to 2018031201
+2018-03-12 15:35:42,317 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[68 56 12 84 03 50 32 68 11 04 33 32 39 35 29 16]
+2018-03-12 15:35:45,595 WARN nioEventLoopGroup-3-2 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 18 03 12 01 fe fe fe fe 68 56 12 84 03 50 32 68 91 0c 33 32 39 35 33 43 33 43 33 43 33 43 89 16 16]
+2018-03-12 15:35:48,317 INFO Timer-1 (KeepWritingTimerTask.java:449)
+send msg to 2018031201
+2018-03-12 15:35:48,317 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[68 56 12 84 03 50 32 68 11 04 33 33 33 33 22 16]
+2018-03-12 15:35:51,456 WARN nioEventLoopGroup-3-2 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 18 03 12 01 fe fe fe fe 68 56 12 84 03 50 32 68 91 08 33 33 33 33 33 33 33 33 72 16 16]
+2018-03-12 15:35:54,317 INFO Timer-1 (KeepWritingTimerTask.java:449)
+send msg to 2018031201
+2018-03-12 15:35:54,322 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[68 56 12 84 03 50 32 68 11 04 33 33 34 33 23 16]
+2018-03-12 15:35:56,898 WARN nioEventLoopGroup-3-2 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 18 03 12 01 fe fe fe fe 68 56 12 84 03 50 32 68 91 08 33 33 34 33 33 33 33 33 73 16 16]
+2018-03-12 15:35:57,318 INFO Timer-1 (KeepWritingTimerTask.java:449)
+send msg to 2018031201
+2018-03-12 15:35:57,318 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[68 56 12 84 03 50 32 68 11 04 33 33 35 33 24 16]
+2018-03-12 15:36:02,001 ERROR nioEventLoopGroup-3-1 (SocketRequestDecoder.java:101)
+unexpected exception
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.UnpooledUnsafeDirectByteBuf.setBytes(UnpooledUnsafeDirectByteBuf.java:446)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:871)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:225)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:115)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:507)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:464)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:378)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:350)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+	at java.lang.Thread.run(Thread.java:745)
+2018-03-12 15:36:02,125 WARN nioEventLoopGroup-3-2 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 18 03 12 01 fe fe fe fe 68 56 12 84 03 50 32 68 91 08 33 33 35 33 33 33 33 33 74 16 16]
+2018-03-12 15:36:03,318 INFO Timer-1 (KeepWritingTimerTask.java:449)
+send msg to 2018031201
+2018-03-12 15:36:03,318 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[68 56 12 84 03 50 32 68 11 04 35 33 b3 35 a6 16]
+2018-03-12 15:36:07,591 WARN nioEventLoopGroup-3-2 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 18 03 12 01 fe fe fe fe 68 56 12 84 03 50 32 68 91 06 35 33 b3 35 cc 7c 70 16 16]
+2018-03-12 15:36:09,325 INFO Timer-1 (KeepWritingTimerTask.java:449)
+send msg to 2018031201
+2018-03-12 15:36:09,326 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[68 56 12 84 03 50 32 68 11 04 39 36 33 37 2f 16]
+2018-03-12 15:36:13,102 WARN nioEventLoopGroup-3-2 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 18 03 12 01 fe fe fe fe 68 56 12 84 03 50 32 68 91 07 39 36 33 37 34 33 33 4c 16 16]
+2018-03-12 15:36:15,321 INFO Timer-1 (KeepWritingTimerTask.java:449)
+send msg to 2018031201
+2018-03-12 15:36:15,321 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[68 56 12 84 03 50 32 68 11 04 3a 36 33 37 30 16]
+2018-03-12 15:36:18,651 WARN nioEventLoopGroup-3-2 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 18 03 12 01 fe fe fe fe 68 56 12 84 03 50 32 68 91 07 3a 36 33 37 34 33 33 4d 16 16]
+2018-03-12 15:36:21,321 INFO Timer-1 (KeepWritingTimerTask.java:449)
+send msg to 2018031201
+2018-03-12 15:36:21,321 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[68 56 12 84 03 50 32 68 1f 04 32 33 33 35 31 16]
+2018-03-12 15:36:24,491 WARN nioEventLoopGroup-3-2 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 18 03 12 01 fe fe fe fe 68 56 12 84 03 50 32 68 9f 0a 32 33 33 35 33 33 33 33 33 33 e9 16 16]
+2018-03-12 15:36:27,321 INFO Timer-1 (KeepWritingTimerTask.java:449)
+send msg to 2018031201
+2018-03-12 15:36:27,321 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[68 56 12 84 03 50 32 68 11 04 33 32 34 35 24 16]
+2018-03-12 15:36:29,612 WARN nioEventLoopGroup-3-2 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 18 03 12 01 fe fe fe fe 68 56 12 84 03 50 32 68 91 0a 33 32 34 35 39 55 39 55 39 55 54 16 16]
+2018-03-12 15:36:30,321 INFO Timer-1 (KeepWritingTimerTask.java:449)
+send msg to 2018031201
+2018-03-12 15:36:30,321 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[68 56 12 84 03 50 32 68 11 04 33 32 35 35 25 16]
+2018-03-12 15:36:35,235 WARN nioEventLoopGroup-3-2 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 18 03 12 01 fe fe fe fe 68 56 12 84 03 50 32 68 91 0d 33 32 35 35 33 33 33 33 33 33 33 33 33 79 16 16]
+2018-03-12 15:36:36,322 INFO Timer-1 (KeepWritingTimerTask.java:449)
+send msg to 2018031201
+2018-03-12 15:36:36,322 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[68 56 12 84 03 50 32 68 11 04 33 32 36 35 26 16]
+2018-03-12 15:36:40,751 WARN nioEventLoopGroup-3-2 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 18 03 12 01 fe fe fe fe 68 56 12 84 03 50 32 68 91 10 33 32 36 35 33 33 33 33 33 33 33 33 33 33 33 33 16 16 16]
+2018-03-12 15:36:42,322 INFO Timer-1 (KeepWritingTimerTask.java:449)
+send msg to 2018031201
+2018-03-12 15:36:42,327 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[68 56 12 84 03 50 32 68 11 04 33 32 37 35 27 16]
+2018-03-12 15:36:46,282 WARN nioEventLoopGroup-3-2 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 18 03 12 01 fe fe fe fe 68 56 12 84 03 50 32 68 91 10 33 32 37 35 33 33 33 33 33 33 33 33 33 33 33 33 17 16 16]
+2018-03-12 15:36:48,322 INFO Timer-1 (KeepWritingTimerTask.java:449)
+send msg to 2018031201
+2018-03-12 15:36:48,327 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[68 56 12 84 03 50 32 68 11 04 33 32 39 35 29 16]
+2018-03-12 15:36:51,882 WARN nioEventLoopGroup-3-2 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 18 03 12 01 fe fe fe fe 68 56 12 84 03 50 32 68 91 0c 33 32 39 35 33 43 33 43 33 43 33 43 89 16 16]
+2018-03-12 15:36:54,323 INFO Timer-1 (KeepWritingTimerTask.java:449)
+send msg to 2018031201
+2018-03-12 15:36:54,328 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[68 56 12 84 03 50 32 68 11 04 33 33 33 33 22 16]
+2018-03-12 15:36:57,398 WARN nioEventLoopGroup-3-2 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 18 03 12 01 fe fe fe fe 68 56 12 84 03 50 32 68 91 08 33 33 33 33 33 33 33 33 72 16 16]
+2018-03-12 15:37:00,323 INFO Timer-1 (KeepWritingTimerTask.java:449)
+send msg to 2018031201
+2018-03-12 15:37:00,329 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[68 56 12 84 03 50 32 68 11 04 33 33 34 33 23 16]
+2018-03-12 15:37:03,431 WARN nioEventLoopGroup-3-2 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 18 03 12 01 fe fe fe fe 68 56 12 84 03 50 32 68 91 08 33 33 34 33 33 33 33 33 73 16 16]
+2018-03-12 15:37:06,323 INFO Timer-1 (KeepWritingTimerTask.java:449)
+send msg to 2018031201
+2018-03-12 15:37:06,323 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[68 56 12 84 03 50 32 68 11 04 33 33 35 33 24 16]
+2018-03-12 15:37:08,195 WARN nioEventLoopGroup-3-2 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 18 03 12 01 fe fe fe fe 68 56 12 84 03 50 32 68 91 08 33 33 35 33 33 33 33 33 74 16 16]
+2018-03-12 15:37:09,324 INFO Timer-1 (KeepWritingTimerTask.java:449)
+send msg to 2018031201
+2018-03-12 15:37:09,324 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[68 56 12 84 03 50 32 68 11 04 35 33 b3 35 a6 16]
+2018-03-12 15:37:13,893 WARN nioEventLoopGroup-3-2 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 18 03 12 01 fe fe fe fe 68 56 12 84 03 50 32 68 91 06 35 33 b3 35 cc 7c 70 16 16]
+2018-03-12 15:37:15,337 INFO Timer-1 (KeepWritingTimerTask.java:449)
+send msg to 2018031201
+2018-03-12 15:37:15,338 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[68 56 12 84 03 50 32 68 11 04 39 36 33 37 2f 16]
+2018-03-12 15:37:19,392 WARN nioEventLoopGroup-3-2 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 18 03 12 01 fe fe fe fe 68 56 12 84 03 50 32 68 91 07 39 36 33 37 34 33 33 4c 16 16]
+2018-03-12 15:37:21,324 INFO Timer-1 (KeepWritingTimerTask.java:449)
+send msg to 2018031201
+2018-03-12 15:37:21,324 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[68 56 12 84 03 50 32 68 11 04 3a 36 33 37 30 16]
+2018-03-12 15:37:24,875 WARN nioEventLoopGroup-3-2 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 18 03 12 01 fe fe fe fe 68 56 12 84 03 50 32 68 91 07 3a 36 33 37 34 33 33 4d 16 16]
+2018-03-12 15:37:27,325 INFO Timer-1 (KeepWritingTimerTask.java:449)
+send msg to 2018031201
+2018-03-12 15:37:27,325 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[68 56 12 84 03 50 32 68 1f 04 32 33 33 35 31 16]
+2018-03-12 15:37:30,654 WARN nioEventLoopGroup-3-2 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 18 03 12 01 fe fe fe fe 68 56 12 84 03 50 32 68 9f 0a 32 33 33 35 33 33 33 33 33 33 e9 16 16]
+2018-03-12 15:37:33,325 INFO Timer-1 (KeepWritingTimerTask.java:449)
+send msg to 2018031201
+2018-03-12 15:37:33,325 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[68 56 12 84 03 50 32 68 11 04 33 32 34 35 24 16]
+2018-03-12 15:37:39,191 WARN nioEventLoopGroup-3-2 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 18 03 12 01 fe fe fe fe 68 56 12 84 03 50 32 68 91 0a 33 32 34 35 39 55 39 55 39 55 54 16 16]
+2018-03-12 15:37:39,325 INFO Timer-1 (KeepWritingTimerTask.java:449)
+send msg to 2018031201
+2018-03-12 15:37:39,325 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[68 56 12 84 03 50 32 68 11 04 33 32 35 35 25 16]
+2018-03-12 15:37:41,411 WARN nioEventLoopGroup-3-2 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 18 03 12 01 fe fe fe fe 68 56 12 84 03 50 32 68 91 0d 33 32 35 35 33 33 33 33 33 33 33 33 33 79 16 16]
+2018-03-12 15:37:42,326 INFO Timer-1 (KeepWritingTimerTask.java:449)
+send msg to 2018031201
+2018-03-12 15:37:42,326 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[68 56 12 84 03 50 32 68 11 04 33 32 36 35 26 16]
+2018-03-12 15:37:47,132 WARN nioEventLoopGroup-3-2 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 18 03 12 01 fe fe fe fe 68 56 12 84 03 50 32 68 91 10 33 32 36 35 33 33 33 33 33 33 33 33 33 33 33 33 16 16 16]
+2018-03-12 15:37:48,326 INFO Timer-1 (KeepWritingTimerTask.java:449)
+send msg to 2018031201
+2018-03-12 15:37:48,326 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[68 56 12 84 03 50 32 68 11 04 33 32 37 35 27 16]
+2018-03-12 15:37:52,673 WARN nioEventLoopGroup-3-2 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 18 03 12 01 fe fe fe fe 68 56 12 84 03 50 32 68 91 10 33 32 37 35 33 33 33 33 33 33 33 33 33 33 33 33 17 16 16]
+2018-03-12 15:37:54,326 INFO Timer-1 (KeepWritingTimerTask.java:449)
+send msg to 2018031201
+2018-03-12 15:37:54,326 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[68 56 12 84 03 50 32 68 11 04 33 32 39 35 29 16]
+2018-03-12 15:37:58,231 WARN nioEventLoopGroup-3-2 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 18 03 12 01 fe fe fe fe 68 56 12 84 03 50 32 68 91 0c 33 32 39 35 33 43 33 43 33 43 33 43 89 16 16]
+2018-03-12 15:38:00,327 INFO Timer-1 (KeepWritingTimerTask.java:449)
+send msg to 2018031201
+2018-03-12 15:38:00,327 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[68 56 12 84 03 50 32 68 11 04 33 33 33 33 22 16]
+2018-03-12 15:38:03,712 WARN nioEventLoopGroup-3-2 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 18 03 12 01 fe fe fe fe 68 56 12 84 03 50 32 68 91 08 33 33 33 33 33 33 33 33 72 16 16]
+2018-03-12 15:38:06,327 INFO Timer-1 (KeepWritingTimerTask.java:449)
+send msg to 2018031201
+2018-03-12 15:38:06,327 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[68 56 12 84 03 50 32 68 11 04 33 33 34 33 23 16]
+2018-03-12 15:38:09,432 WARN nioEventLoopGroup-3-2 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 18 03 12 01 fe fe fe fe 68 56 12 84 03 50 32 68 91 08 33 33 34 33 33 33 33 33 73 16 16]
+2018-03-12 15:38:12,327 INFO Timer-1 (KeepWritingTimerTask.java:449)
+send msg to 2018031201
+2018-03-12 15:38:12,327 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[68 56 12 84 03 50 32 68 11 04 33 33 35 33 24 16]
+2018-03-12 15:38:14,551 WARN nioEventLoopGroup-3-2 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 18 03 12 01 fe fe fe fe 68 56 12 84 03 50 32 68 91 08 33 33 35 33 33 33 33 33 74 16 16]
+2018-03-12 15:38:15,327 INFO Timer-1 (KeepWritingTimerTask.java:449)
+send msg to 2018031201
+2018-03-12 15:38:15,332 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[68 56 12 84 03 50 32 68 11 04 35 33 b3 35 a6 16]
+2018-03-12 15:38:20,252 WARN nioEventLoopGroup-3-2 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 18 03 12 01 fe fe fe fe 68 56 12 84 03 50 32 68 91 06 35 33 b3 35 cc 7c 70 16 16]
+2018-03-12 15:38:21,344 INFO Timer-1 (KeepWritingTimerTask.java:449)
+send msg to 2018031201
+2018-03-12 15:38:21,344 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[68 56 12 84 03 50 32 68 11 04 39 36 33 37 2f 16]
+2018-03-12 15:38:25,577 WARN nioEventLoopGroup-3-2 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 18 03 12 01 fe fe fe fe 68 56 12 84 03 50 32 68 91 07 39 36 33 37 34 33 33 4c 16 16]
+2018-03-12 15:38:27,328 INFO Timer-1 (KeepWritingTimerTask.java:449)
+send msg to 2018031201
+2018-03-12 15:38:27,328 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[68 56 12 84 03 50 32 68 11 04 3a 36 33 37 30 16]
+2018-03-12 15:38:31,304 WARN nioEventLoopGroup-3-2 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 18 03 12 01 fe fe fe fe 68 56 12 84 03 50 32 68 91 07 3a 36 33 37 34 33 33 4d 16 16]
+2018-03-12 15:38:33,328 INFO Timer-1 (KeepWritingTimerTask.java:449)
+send msg to 2018031201
+2018-03-12 15:38:33,328 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[68 56 12 84 03 50 32 68 1f 04 32 33 33 35 31 16]
+2018-03-12 15:38:36,734 WARN nioEventLoopGroup-3-2 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 18 03 12 01 fe fe fe fe 68 56 12 84 03 50 32 68 9f 0a 32 33 33 35 33 33 33 33 33 33 e9 16 16]
+2018-03-12 15:38:39,329 INFO Timer-1 (KeepWritingTimerTask.java:449)
+send msg to 2018031201
+2018-03-12 15:38:39,329 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[68 56 12 84 03 50 32 68 11 04 33 32 34 35 24 16]
+2018-03-12 15:38:42,581 WARN nioEventLoopGroup-3-2 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 18 03 12 01 fe fe fe fe 68 56 12 84 03 50 32 68 91 0a 33 32 34 35 39 55 39 55 39 55 54 16 16]
+2018-03-12 15:38:45,329 INFO Timer-1 (KeepWritingTimerTask.java:449)
+send msg to 2018031201
+2018-03-12 15:38:45,329 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[68 56 12 84 03 50 32 68 11 04 33 32 35 35 25 16]
+2018-03-12 15:38:48,452 WARN nioEventLoopGroup-3-2 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 18 03 12 01 fe fe fe fe 68 56 12 84 03 50 32 68 91 0d 33 32 35 35 33 33 33 33 33 33 33 33 33 79 16 16]
+2018-03-12 15:38:51,329 INFO Timer-1 (KeepWritingTimerTask.java:449)
+send msg to 2018031201
+2018-03-12 15:38:51,329 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[68 56 12 84 03 50 32 68 11 04 33 32 36 35 26 16]
+2018-03-12 15:38:53,577 WARN nioEventLoopGroup-3-2 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 18 03 12 01 fe fe fe fe 68 56 12 84 03 50 32 68 91 10 33 32 36 35 33 33 33 33 33 33 33 33 33 33 33 33 16 16 16]
+2018-03-12 15:38:54,330 INFO Timer-1 (KeepWritingTimerTask.java:449)
+send msg to 2018031201
+2018-03-12 15:38:54,330 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[68 56 12 84 03 50 32 68 11 04 33 32 37 35 27 16]
+2018-03-12 15:38:58,993 WARN nioEventLoopGroup-3-2 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 18 03 12 01 fe fe fe fe 68 56 12 84 03 50 32 68 91 10 33 32 37 35 33 33 33 33 33 33 33 33 33 33 33 33 17 16 16]
+2018-03-12 15:39:00,330 INFO Timer-1 (KeepWritingTimerTask.java:449)
+send msg to 2018031201
+2018-03-12 15:39:00,335 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[68 56 12 84 03 50 32 68 11 04 33 32 39 35 29 16]
+2018-03-12 15:39:04,531 WARN nioEventLoopGroup-3-2 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 18 03 12 01 fe fe fe fe 68 56 12 84 03 50 32 68 91 0c 33 32 39 35 33 43 33 43 33 43 33 43 89 16 16]
+2018-03-12 15:39:06,330 INFO Timer-1 (KeepWritingTimerTask.java:449)
+send msg to 2018031201
+2018-03-12 15:39:06,330 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[68 56 12 84 03 50 32 68 11 04 33 33 33 33 22 16]
+2018-03-12 15:39:10,132 WARN nioEventLoopGroup-3-2 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 18 03 12 01 fe fe fe fe 68 56 12 84 03 50 32 68 91 08 33 33 33 33 33 33 33 33 72 16 16]
+2018-03-12 15:39:12,331 INFO Timer-1 (KeepWritingTimerTask.java:449)
+send msg to 2018031201
+2018-03-12 15:39:12,331 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[68 56 12 84 03 50 32 68 11 04 33 33 34 33 23 16]
+2018-03-12 15:39:15,611 WARN nioEventLoopGroup-3-2 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 18 03 12 01 fe fe fe fe 68 56 12 84 03 50 32 68 91 08 33 33 34 33 33 33 33 33 73 16 16]
+2018-03-12 15:39:18,331 INFO Timer-1 (KeepWritingTimerTask.java:449)
+send msg to 2018031201
+2018-03-12 15:39:18,331 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[68 56 12 84 03 50 32 68 11 04 33 33 35 33 24 16]
+2018-03-12 15:39:21,526 WARN nioEventLoopGroup-3-2 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 18 03 12 01 fe fe fe fe 68 56 12 84 03 50 32 68 91 08 33 33 35 33 33 33 33 33 74 16 16]
+2018-03-12 15:39:24,331 INFO Timer-1 (KeepWritingTimerTask.java:449)
+send msg to 2018031201
+2018-03-12 15:39:24,331 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[68 56 12 84 03 50 32 68 11 04 35 33 b3 35 a6 16]
+2018-03-12 15:39:26,656 WARN nioEventLoopGroup-3-2 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 18 03 12 01 fe fe fe fe 68 56 12 84 03 50 32 68 91 06 35 33 b3 35 cc 7c 70 16 16]
+2018-03-12 15:39:27,341 INFO Timer-1 (KeepWritingTimerTask.java:449)
+send msg to 2018031201
+2018-03-12 15:39:27,341 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[68 56 12 84 03 50 32 68 11 04 39 36 33 37 2f 16]
+2018-03-12 15:39:32,152 WARN nioEventLoopGroup-3-2 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 18 03 12 01 fe fe fe fe 68 56 12 84 03 50 32 68 91 07 39 36 33 37 34 33 33 4c 16 16]
+2018-03-12 15:39:33,332 INFO Timer-1 (KeepWritingTimerTask.java:449)
+send msg to 2018031201
+2018-03-12 15:39:33,332 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[68 56 12 84 03 50 32 68 11 04 3a 36 33 37 30 16]
+2018-03-12 15:39:37,811 WARN nioEventLoopGroup-3-2 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 18 03 12 01 fe fe fe fe 68 56 12 84 03 50 32 68 91 07 3a 36 33 37 34 33 33 4d 16 16]
+2018-03-12 15:39:39,332 INFO Timer-1 (KeepWritingTimerTask.java:449)
+send msg to 2018031201
+2018-03-12 15:39:39,332 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[68 56 12 84 03 50 32 68 1f 04 32 33 33 35 31 16]
+2018-03-12 15:39:43,134 WARN nioEventLoopGroup-3-2 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 18 03 12 01 fe fe fe fe 68 56 12 84 03 50 32 68 9f 0a 32 33 33 35 33 33 33 33 33 33 e9 16 16]
+2018-03-12 15:39:45,333 INFO Timer-1 (KeepWritingTimerTask.java:449)
+send msg to 2018031201
+2018-03-12 15:39:45,333 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[68 56 12 84 03 50 32 68 11 04 33 32 34 35 24 16]
+2018-03-12 15:39:48,635 WARN nioEventLoopGroup-3-2 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 18 03 12 01 fe fe fe fe 68 56 12 84 03 50 32 68 91 0a 33 32 34 35 39 55 39 55 39 55 54 16 16]
+2018-03-12 15:39:51,333 INFO Timer-1 (KeepWritingTimerTask.java:449)
+send msg to 2018031201
+2018-03-12 15:39:51,333 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[68 56 12 84 03 50 32 68 11 04 33 32 35 35 25 16]
+2018-03-12 15:39:54,497 WARN nioEventLoopGroup-3-2 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 18 03 12 01 fe fe fe fe 68 56 12 84 03 50 32 68 91 0d 33 32 35 35 33 33 33 33 33 33 33 33 33 79 16 16]
+2018-03-12 15:39:57,333 INFO Timer-1 (KeepWritingTimerTask.java:449)
+send msg to 2018031201
+2018-03-12 15:39:57,333 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[68 56 12 84 03 50 32 68 11 04 33 32 36 35 26 16]
+2018-03-12 15:40:00,535 WARN nioEventLoopGroup-3-2 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 18 03 12 01 fe fe fe fe 68 56 12 84 03 50 32 68 91 10 33 32 36 35 33 33 33 33 33 33 33 33 33 33 33 33 16 16 16]
+2018-03-12 15:40:03,334 INFO Timer-1 (KeepWritingTimerTask.java:449)
+send msg to 2018031201
+2018-03-12 15:40:03,334 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[68 56 12 84 03 50 32 68 11 04 33 32 37 35 27 16]
+2018-03-12 15:40:05,318 WARN nioEventLoopGroup-3-2 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 18 03 12 01 fe fe fe fe 68 56 12 84 03 50 32 68 91 10 33 32 37 35 33 33 33 33 33 33 33 33 33 33 33 33 17 16 16]
+2018-03-12 15:40:06,334 INFO Timer-1 (KeepWritingTimerTask.java:449)
+send msg to 2018031201
+2018-03-12 15:40:06,334 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[68 56 12 84 03 50 32 68 11 04 33 32 39 35 29 16]
+2018-03-12 15:40:10,915 WARN nioEventLoopGroup-3-2 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 18 03 12 01 fe fe fe fe 68 56 12 84 03 50 32 68 91 0c 33 32 39 35 33 43 33 43 33 43 33 43 89 16 16]
+2018-03-12 15:40:12,334 INFO Timer-1 (KeepWritingTimerTask.java:449)
+send msg to 2018031201
+2018-03-12 15:40:12,334 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[68 56 12 84 03 50 32 68 11 04 33 33 33 33 22 16]
+2018-03-12 15:40:16,491 WARN nioEventLoopGroup-3-2 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 18 03 12 01 fe fe fe fe 68 56 12 84 03 50 32 68 91 08 33 33 33 33 33 33 33 33 72 16 16]
+2018-03-12 15:40:18,334 INFO Timer-1 (KeepWritingTimerTask.java:449)
+send msg to 2018031201
+2018-03-12 15:40:18,339 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[68 56 12 84 03 50 32 68 11 04 33 33 34 33 23 16]
+2018-03-12 15:40:21,992 WARN nioEventLoopGroup-3-2 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 18 03 12 01 fe fe fe fe 68 56 12 84 03 50 32 68 91 08 33 33 34 33 33 33 33 33 73 16 16]
+2018-03-12 15:40:24,335 INFO Timer-1 (KeepWritingTimerTask.java:449)
+send msg to 2018031201
+2018-03-12 15:40:24,335 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[68 56 12 84 03 50 32 68 11 04 33 33 35 33 24 16]
+2018-03-12 15:40:27,526 WARN nioEventLoopGroup-3-2 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 18 03 12 01 fe fe fe fe 68 56 12 84 03 50 32 68 91 08 33 33 35 33 33 33 33 33 74 16 16]
+2018-03-12 15:40:30,335 INFO Timer-1 (KeepWritingTimerTask.java:449)
+send msg to 2018031201
+2018-03-12 15:40:30,335 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[68 56 12 84 03 50 32 68 11 04 35 33 b3 35 a6 16]
+2018-03-12 15:40:33,536 WARN nioEventLoopGroup-3-2 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 18 03 12 01 fe fe fe fe 68 56 12 84 03 50 32 68 91 06 35 33 b3 35 cc 7c 70 16 16]
+2018-03-12 15:40:36,343 INFO Timer-1 (KeepWritingTimerTask.java:449)
+send msg to 2018031201
+2018-03-12 15:40:36,343 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[68 56 12 84 03 50 32 68 11 04 39 36 33 37 2f 16]
+2018-03-12 15:40:38,615 WARN nioEventLoopGroup-3-2 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 18 03 12 01 fe fe fe fe 68 56 12 84 03 50 32 68 91 07 39 36 33 37 34 33 33 4c 16 16]
+2018-03-12 15:40:39,336 INFO Timer-1 (KeepWritingTimerTask.java:449)
+send msg to 2018031201
+2018-03-12 15:40:39,341 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[68 56 12 84 03 50 32 68 11 04 3a 36 33 37 30 16]
+2018-03-12 15:40:44,095 WARN nioEventLoopGroup-3-2 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 18 03 12 01 fe fe fe fe 68 56 12 84 03 50 32 68 91 07 3a 36 33 37 34 33 33 4d 16 16]
+2018-03-12 15:40:45,336 INFO Timer-1 (KeepWritingTimerTask.java:449)
+send msg to 2018031201
+2018-03-12 15:40:45,336 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[68 56 12 84 03 50 32 68 1f 04 32 33 33 35 31 16]
+2018-03-12 15:40:49,517 WARN nioEventLoopGroup-3-2 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 18 03 12 01 fe fe fe fe 68 56 12 84 03 50 32 68 9f 0a 32 33 33 35 33 33 33 33 33 33 e9 16 16]
+2018-03-12 15:40:51,336 INFO Timer-1 (KeepWritingTimerTask.java:449)
+send msg to 2018031201
+2018-03-12 15:40:51,336 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[68 56 12 84 03 50 32 68 11 04 33 32 34 35 24 16]
+2018-03-12 15:40:55,012 WARN nioEventLoopGroup-3-2 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 18 03 12 01 fe fe fe fe 68 56 12 84 03 50 32 68 91 0a 33 32 34 35 39 55 39 55 39 55 54 16 16]
+2018-03-12 15:40:57,337 INFO Timer-1 (KeepWritingTimerTask.java:449)
+send msg to 2018031201
+2018-03-12 15:40:57,337 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[68 56 12 84 03 50 32 68 11 04 33 32 35 35 25 16]
+2018-03-12 15:41:00,652 WARN nioEventLoopGroup-3-2 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 18 03 12 01 fe fe fe fe 68 56 12 84 03 50 32 68 91 0d 33 32 35 35 33 33 33 33 33 33 33 33 33 79 16 16]
+2018-03-12 15:41:03,337 INFO Timer-1 (KeepWritingTimerTask.java:449)
+send msg to 2018031201
+2018-03-12 15:41:03,337 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[68 56 12 84 03 50 32 68 11 04 33 32 36 35 26 16]
+2018-03-12 15:41:06,432 WARN nioEventLoopGroup-3-2 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 18 03 12 01 fe fe fe fe 68 56 12 84 03 50 32 68 91 10 33 32 36 35 33 33 33 33 33 33 33 33 33 33 33 33 16 16 16]
+2018-03-12 15:41:09,337 INFO Timer-1 (KeepWritingTimerTask.java:449)
+send msg to 2018031201
+2018-03-12 15:41:09,337 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[68 56 12 84 03 50 32 68 11 04 33 32 37 35 27 16]
+2018-03-12 15:41:11,876 WARN nioEventLoopGroup-3-2 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 18 03 12 01 fe fe fe fe 68 56 12 84 03 50 32 68 91 10 33 32 37 35 33 33 33 33 33 33 33 33 33 33 33 33 17 16 16]
+2018-03-12 15:41:12,338 INFO Timer-1 (KeepWritingTimerTask.java:449)
+send msg to 2018031201
+2018-03-12 15:41:12,338 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[68 56 12 84 03 50 32 68 11 04 33 32 39 35 29 16]
+2018-03-12 15:41:17,272 WARN nioEventLoopGroup-3-2 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 18 03 12 01 fe fe fe fe 68 56 12 84 03 50 32 68 91 0c 33 32 39 35 33 43 33 43 33 43 33 43 89 16 16]
+2018-03-12 15:41:18,338 INFO Timer-1 (KeepWritingTimerTask.java:449)
+send msg to 2018031201
+2018-03-12 15:41:18,343 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[68 56 12 84 03 50 32 68 11 04 33 33 33 33 22 16]
+2018-03-12 15:41:22,799 WARN nioEventLoopGroup-3-2 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 18 03 12 01 fe fe fe fe 68 56 12 84 03 50 32 68 91 08 33 33 33 33 33 33 33 33 72 16 16]
+2018-03-12 15:41:24,338 INFO Timer-1 (KeepWritingTimerTask.java:449)
+send msg to 2018031201
+2018-03-12 15:41:24,338 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[68 56 12 84 03 50 32 68 11 04 33 33 34 33 23 16]
+2018-03-12 15:41:28,331 WARN nioEventLoopGroup-3-2 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 18 03 12 01 fe fe fe fe 68 56 12 84 03 50 32 68 91 08 33 33 34 33 33 33 33 33 73 16 16]
+2018-03-12 15:41:30,339 INFO Timer-1 (KeepWritingTimerTask.java:449)
+send msg to 2018031201
+2018-03-12 15:41:30,339 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[68 56 12 84 03 50 32 68 11 04 33 33 35 33 24 16]
+2018-03-12 15:41:33,825 WARN nioEventLoopGroup-3-2 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 18 03 12 01 fe fe fe fe 68 56 12 84 03 50 32 68 91 08 33 33 35 33 33 33 33 33 74 16 16]
+2018-03-12 15:41:36,339 INFO Timer-1 (KeepWritingTimerTask.java:449)
+send msg to 2018031201
+2018-03-12 15:41:36,339 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[68 56 12 84 03 50 32 68 11 04 35 33 b3 35 a6 16]
+2018-03-12 15:41:39,492 WARN nioEventLoopGroup-3-2 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 18 03 12 01 fe fe fe fe 68 56 12 84 03 50 32 68 91 06 35 33 b3 35 cc 7c 70 16 16]
+2018-03-12 15:41:42,346 INFO Timer-1 (KeepWritingTimerTask.java:449)
+send msg to 2018031201
+2018-03-12 15:41:42,349 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[68 56 12 84 03 50 32 68 11 04 39 36 33 37 2f 16]
+2018-03-12 15:41:44,697 WARN nioEventLoopGroup-3-2 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 18 03 12 01 fe fe fe fe 68 56 12 84 03 50 32 68 91 07 39 36 33 37 34 33 33 4c 16 16]
+2018-03-12 15:41:45,339 INFO Timer-1 (KeepWritingTimerTask.java:449)
+send msg to 2018031201
+2018-03-12 15:41:45,339 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[68 56 12 84 03 50 32 68 11 04 3a 36 33 37 30 16]
+2018-03-12 15:41:50,415 WARN nioEventLoopGroup-3-2 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 18 03 12 01 fe fe fe fe 68 56 12 84 03 50 32 68 91 07 3a 36 33 37 34 33 33 4d 16 16]
+2018-03-12 15:41:51,340 INFO Timer-1 (KeepWritingTimerTask.java:449)
+send msg to 2018031201
+2018-03-12 15:41:51,340 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[68 56 12 84 03 50 32 68 1f 04 32 33 33 35 31 16]
+2018-03-12 15:41:56,212 WARN nioEventLoopGroup-3-2 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 18 03 12 01 fe fe fe fe 68 56 12 84 03 50 32 68 9f 0a 32 33 33 35 33 33 33 33 33 33 e9 16 16]
+2018-03-12 15:41:57,340 INFO Timer-1 (KeepWritingTimerTask.java:449)
+send msg to 2018031201
+2018-03-12 15:41:57,340 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[68 56 12 84 03 50 32 68 11 04 33 32 34 35 24 16]
+2018-03-12 15:42:03,756 WARN nioEventLoopGroup-3-2 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 18 03 12 01 fe fe fe fe 68 56 12 84 03 50 32 68 91 0a 33 32 34 35 39 55 39 55 39 55 54 16 16]
+2018-03-12 15:42:06,341 INFO Timer-1 (KeepWritingTimerTask.java:449)
+send msg to 2018031201
+2018-03-12 15:42:06,341 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[68 56 12 84 03 50 32 68 11 04 33 32 35 35 25 16]
+2018-03-12 15:42:09,452 WARN nioEventLoopGroup-3-2 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 18 03 12 01 fe fe fe fe 68 56 12 84 03 50 32 68 91 0d 33 32 35 35 33 33 33 33 33 33 33 33 33 79 16 16]
+2018-03-12 15:42:12,341 INFO Timer-1 (KeepWritingTimerTask.java:449)
+send msg to 2018031201
+2018-03-12 15:42:12,341 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[68 56 12 84 03 50 32 68 11 04 33 32 36 35 26 16]
+2018-03-12 15:43:12,361 INFO Timer-1 (KeepWritingTimerTask.java:449)
+send msg to 2018031201
+2018-03-12 15:43:12,361 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[68 56 12 84 03 50 32 68 11 04 39 36 33 37 2f 16]
+2018-03-12 15:44:15,364 INFO Timer-1 (KeepWritingTimerTask.java:449)
+send msg to 2018031201
+2018-03-12 15:44:15,364 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[68 56 12 84 03 50 32 68 11 04 39 36 33 37 2f 16]
+2018-03-12 15:45:15,383 INFO Timer-1 (KeepWritingTimerTask.java:449)
+send msg to 2018031201
+2018-03-12 15:45:15,383 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[68 56 12 84 03 50 32 68 11 04 39 36 33 37 2f 16]
+2018-03-12 15:45:48,723 ERROR nioEventLoopGroup-3-2 (SocketRequestDecoder.java:101)
+unexpected exception
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.UnpooledUnsafeDirectByteBuf.setBytes(UnpooledUnsafeDirectByteBuf.java:446)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:871)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:225)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:115)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:507)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:464)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:378)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:350)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+	at java.lang.Thread.run(Thread.java:745)
+2018-03-12 15:46:21,510 WARN nioEventLoopGroup-3-3 (SocketServerHandler.java:114)
+channelRead0：[68 01 00 20 18 03 12 01 b7 16]
+2018-03-12 15:46:21,526 WARN nioEventLoopGroup-3-3 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[01]
+2018-03-12 15:46:24,138 WARN Timer-4 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[55 aa 21 00 00]
+2018-03-12 15:46:44,139 WARN Timer-4 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[55 aa 23 00 00]
+2018-03-12 15:46:48,391 INFO Timer-1 (KeepWritingTimerTask.java:449)
+send msg to 2018031201
+2018-03-12 15:46:48,391 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[68 56 12 84 03 50 32 68 11 04 39 36 33 37 2f 16]
+2018-03-12 15:47:51,393 INFO Timer-1 (KeepWritingTimerTask.java:449)
+send msg to 2018031201
+2018-03-12 15:47:51,394 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[68 56 12 84 03 50 32 68 11 04 39 36 33 37 2f 16]
+2018-03-12 15:48:54,399 INFO Timer-1 (KeepWritingTimerTask.java:449)
+send msg to 2018031201
+2018-03-12 15:48:54,399 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[68 56 12 84 03 50 32 68 11 04 39 36 33 37 2f 16]
+2018-03-12 15:49:52,810 ERROR nioEventLoopGroup-3-3 (SocketRequestDecoder.java:101)
+unexpected exception
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.UnpooledUnsafeDirectByteBuf.setBytes(UnpooledUnsafeDirectByteBuf.java:446)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:871)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:225)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:115)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:507)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:464)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:378)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:350)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+	at java.lang.Thread.run(Thread.java:745)

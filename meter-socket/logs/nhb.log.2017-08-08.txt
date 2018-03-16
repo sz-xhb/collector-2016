@@ -1,0 +1,371 @@
+2017-08-08 14:38:26,947 WARN Timer-2 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[55 aa 21 00 00]
+2017-08-08 14:38:46,948 WARN Timer-2 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[55 aa 23 00 00]
+2017-08-08 14:39:25,403 WARN Timer-3 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[55 aa 21 00 00]
+2017-08-08 14:39:45,402 WARN Timer-3 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[55 aa 23 00 00]
+2017-08-08 16:33:58,221 WARN nioEventLoopGroup-3-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[01]
+2017-08-08 16:34:07,928 WARN Timer-2 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[55 aa 21 00 00]
+2017-08-08 16:34:40,174 WARN nioEventLoopGroup-3-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[01]
+2017-08-08 16:34:50,054 WARN Timer-2 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[55 aa 21 00 00]
+2017-08-08 16:35:10,053 WARN Timer-2 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[55 aa 23 00 00]
+2017-08-08 16:35:13,406 WARN Timer-1 (KeepWritingTimerTask.java:137)
+2017080702 not found
+2017-08-08 16:35:16,405 WARN Timer-1 (KeepWritingTimerTask.java:137)
+2017080702 not found
+2017-08-08 16:35:19,406 WARN Timer-1 (KeepWritingTimerTask.java:137)
+2017080702 not found
+2017-08-08 16:35:22,406 WARN Timer-1 (KeepWritingTimerTask.java:137)
+2017080702 not found
+2017-08-08 16:35:25,407 WARN Timer-1 (KeepWritingTimerTask.java:137)
+2017080702 not found
+2017-08-08 16:35:28,407 WARN Timer-1 (KeepWritingTimerTask.java:137)
+2017080702 not found
+2017-08-08 16:35:31,407 WARN Timer-1 (KeepWritingTimerTask.java:137)
+2017080702 not found
+2017-08-08 16:35:34,407 WARN Timer-1 (KeepWritingTimerTask.java:137)
+2017080702 not found
+2017-08-08 16:35:37,411 WARN Timer-1 (KeepWritingTimerTask.java:137)
+2017080702 not found
+2017-08-08 16:35:40,408 WARN Timer-1 (KeepWritingTimerTask.java:137)
+2017080702 not found
+2017-08-08 16:46:54,841 WARN nioEventLoopGroup-3-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[01]
+2017-08-08 16:47:04,183 WARN Timer-2 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[55 aa 21 00 00]
+2017-08-08 16:47:24,182 WARN Timer-2 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[55 aa 23 00 00]
+2017-08-08 16:47:33,210 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[01 03 10 04 00 44 00 f8]
+2017-08-08 16:48:09,119 WARN nioEventLoopGroup-3-2 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[01]
+2017-08-08 16:48:18,194 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[01 03 10 04 00 44 00 f8]
+2017-08-08 16:48:19,030 WARN Timer-3 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[55 aa 21 00 00]
+2017-08-08 16:48:21,185 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[01 03 00 06 00 04 a4 08]
+2017-08-08 16:48:39,029 WARN Timer-3 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[55 aa 23 00 00]
+2017-08-08 16:50:13,058 ERROR nioEventLoopGroup-3-1 (SocketRequestDecoder.java:101)
+unexpected exception
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.UnpooledUnsafeDirectByteBuf.setBytes(UnpooledUnsafeDirectByteBuf.java:446)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:871)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:225)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:115)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:507)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:464)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:378)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:350)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+	at java.lang.Thread.run(Thread.java:745)
+2017-08-08 16:53:00,279 WARN nioEventLoopGroup-3-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[01]
+2017-08-08 16:53:03,516 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[01 03 10 00 00 26 c0 d0]
+2017-08-08 16:53:06,473 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[01 03 00 06 00 04 a4 08]
+2017-08-08 16:53:10,106 WARN Timer-2 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[55 aa 21 00 00]
+2017-08-08 16:53:30,105 WARN Timer-2 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[55 aa 23 00 00]
+2017-08-08 16:58:22,621 WARN nioEventLoopGroup-3-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[01]
+2017-08-08 16:58:32,447 WARN Timer-2 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[55 aa 21 00 00]
+2017-08-08 16:58:52,448 WARN Timer-2 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[55 aa 23 00 00]
+2017-08-08 16:59:11,824 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[01 03 10 00 00 26 c0 d0]
+2017-08-08 17:03:32,026 WARN nioEventLoopGroup-3-1 (SocketServerHandler.java:114)
+channelRead0：[68 01 00 20 17 08 07 02 b1 16]
+2017-08-08 17:03:32,129 WARN nioEventLoopGroup-3-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[01]
+2017-08-08 17:03:42,008 WARN Timer-2 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[55 aa 21 00 00]
+2017-08-08 17:03:43,196 WARN nioEventLoopGroup-3-1 (SocketServerHandler.java:114)
+channelRead0：[55 aa 21 00 8b e2 6f f5 79 f6 37 f4 79 e3 7b e1 7a ec 67 a6 6f a8 67 a9 66 a9 64 ab 65 ad 62 a5 6a a2 6d a0 3d f3 3d f4 37 e7 6a f0 68 f2 69 ff 74 b5 76 e1 7b e5 68 e3 7e e4 7a f1 30 f9 3e f1 3c f3 3c f1 3e f0 38 f7 30 ff 37 f8 35 a8 65 ab 62 a1 71 e6 7c e2 6f e4 79 e3 7d f6 37 f4 63 f9 67 fc 3d f4 33 fc 30 ff 30 fd 32 fc 34 fb 3c f3 3b f4 39 fa 2a bd 27 b9 22 e3 20 ab 35 a3 30 f1 3f f6 35 e5 6e f0 66 f5 34 f7 27 aa 30 bc 33 f2]
+2017-08-08 17:03:47,898 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[01 03 10 00 00 26 c0 d0]
+2017-08-08 17:03:49,312 WARN nioEventLoopGroup-3-1 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 17 08 07 02 01 03 4c 00 00 17 08 08 17 03 58 13 8b 08 d7 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 64 00 64 00 00 00 00 00 00 00 00 00 5a 00 00 00 2e 00 00 00 2c 00 00 00 5a 00 00 00 5a fc af 16]
+2017-08-08 17:04:02,007 WARN Timer-2 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[55 aa 23 00 00]
+2017-08-08 17:04:03,414 WARN nioEventLoopGroup-3-1 (SocketServerHandler.java:114)
+channelRead0：[55 aa 23 00 2d e0 6d f7 7b f4 35 f6 65 f5 69 f7 64 c4 52 dd 1c d2 1d cc 02 cb 0c dd 11 df 0e c1 02 d2 41 d1 4d d3 40 e0 76 f9 38 fb 2b a6 3c b0 3f fe]
+2017-08-08 17:05:35,994 WARN nioEventLoopGroup-3-1 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 17 08 07 02 01 03 00 07 00 01 35 cb 16]
+2017-08-08 17:05:37,634 WARN nioEventLoopGroup-3-1 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 17 08 07 02 01 03 02 00 01 79 84 16]
+2017-08-08 17:06:41,389 WARN nioEventLoopGroup-3-1 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 17 08 07 02 01 03 00 06 00 01 64 0b 16]
+2017-08-08 17:06:42,238 WARN nioEventLoopGroup-3-1 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 17 08 07 02 01 03 02 00 01 79 84 16]
+2017-08-08 17:07:15,207 WARN nioEventLoopGroup-3-1 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 17 08 07 02 01 03 00 06 00 02 24 0a 16]
+2017-08-08 17:07:16,842 WARN nioEventLoopGroup-3-1 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 17 08 07 02 01 03 04 00 01 00 01 6a 33 16]
+2017-08-08 17:08:02,494 WARN nioEventLoopGroup-3-1 (SocketServerHandler.java:114)
+channelRead0：[68 02 00 20 17 08 07 02 b2 16]
+2017-08-08 17:08:02,508 WARN nioEventLoopGroup-3-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[02]
+2017-08-08 17:12:22,594 WARN nioEventLoopGroup-3-1 (SocketServerHandler.java:114)
+channelRead0：[68 01 00 20 17 08 07 02 b1 16]
+2017-08-08 17:12:22,692 WARN nioEventLoopGroup-3-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[01]
+2017-08-08 17:12:32,452 WARN Timer-2 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[55 aa 21 00 00]
+2017-08-08 17:12:33,698 WARN nioEventLoopGroup-3-1 (SocketServerHandler.java:114)
+channelRead0：[55 aa 21 00 8b e2 6f f5 79 f6 37 f4 79 e3 7b e1 7a ec 67 a6 6f a8 67 a9 66 a9 64 ab 65 ad 62 a5 6a a2 6d a0 3d f3 3d f4 37 e7 6a f0 68 f2 69 ff 74 b5 76 e1 7b e5 68 e3 7e e4 7a f1 30 f9 3e f1 3c f3 3c f1 3e f0 38 f7 30 ff 37 f8 35 a8 65 ab 62 a1 71 e6 7c e2 6f e4 79 e3 7d f6 37 f4 63 f9 67 fc 3d f4 33 fc 30 ff 30 fd 32 fc 34 fb 3c f3 3b f4 39 fa 2a bd 27 b9 22 e3 20 ab 35 a3 30 f1 3f f6 35 e5 6e f0 66 f5 34 f7 27 aa 30 bc 33 f2]
+2017-08-08 17:12:37,811 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[01 03 10 00 00 26 c0 d0]
+2017-08-08 17:12:39,269 WARN nioEventLoopGroup-3-1 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 17 08 07 02 01 03 4c 00 00 17 08 08 17 12 47 13 83 08 c9 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 64 00 64 00 00 00 00 00 00 00 00 00 5a 00 00 00 2e 00 00 00 2c 00 00 00 5a 00 00 00 5a 91 43 16]
+2017-08-08 17:12:40,777 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[01 03 00 06 00 02 24 0a]
+2017-08-08 17:12:41,389 WARN nioEventLoopGroup-3-1 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 17 08 07 02 01 03 04 00 01 00 01 6a 33 16]
+2017-08-08 17:12:41,408 ERROR nioEventLoopGroup-3-1 (AbstractDevice.java:59)
+unknow Exception
+java.lang.ArrayIndexOutOfBoundsException: 9
+	at com.xhb.sockserv.meter.Meter_OneWayA.analyzeDataInfo(Meter_OneWayA.java:97)
+	at com.xhb.sockserv.meter.Meter_OneWayA.analyzeFrame(Meter_OneWayA.java:83)
+	at com.xhb.sockserv.meter.AbstractDevice.processReadingFrame(AbstractDevice.java:51)
+	at com.xhb.sockserv.SocketServerHandler.readDevice(SocketServerHandler.java:571)
+	at com.xhb.sockserv.SocketServerHandler.channelRead0(SocketServerHandler.java:147)
+	at com.xhb.sockserv.SocketServerHandler.channelRead0(SocketServerHandler.java:1)
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:103)
+	at io.netty.channel.DefaultChannelHandlerContext.invokeChannelRead(DefaultChannelHandlerContext.java:341)
+	at io.netty.channel.DefaultChannelHandlerContext.fireChannelRead(DefaultChannelHandlerContext.java:327)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:163)
+	at io.netty.channel.DefaultChannelHandlerContext.invokeChannelRead(DefaultChannelHandlerContext.java:341)
+	at io.netty.channel.DefaultChannelHandlerContext.fireChannelRead(DefaultChannelHandlerContext.java:327)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:785)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:126)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:507)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:464)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:378)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:350)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+	at java.lang.Thread.run(Thread.java:745)
+2017-08-08 17:12:52,452 WARN Timer-2 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[55 aa 23 00 00]
+2017-08-08 17:12:53,348 WARN nioEventLoopGroup-3-1 (SocketServerHandler.java:114)
+channelRead0：[55 aa 23 00 2d e0 6d f7 7b f4 35 f6 65 f5 69 f7 64 c4 52 dd 1c d2 1d cc 02 cb 0c dd 11 df 0e c1 02 d2 41 d1 4d d3 40 e0 76 f9 38 fb 2b a6 3c b0 3f fe]
+2017-08-08 17:13:07,871 WARN nioEventLoopGroup-3-1 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 17 08 07 02 00 03 00 00 00 01 85 db 16]
+2017-08-08 17:13:09,470 WARN nioEventLoopGroup-3-1 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 17 08 07 02 01 03 02 00 01 79 84 16]
+2017-08-08 17:13:10,510 WARN nioEventLoopGroup-3-1 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 17 08 07 02 01 03 10 00 00 26 c0 d0 16]
+2017-08-08 17:13:11,570 WARN nioEventLoopGroup-3-1 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 17 08 07 02 01 03 4c 00 00 17 08 08 17 13 18 13 85 08 cb 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 64 00 64 00 00 00 00 00 00 00 00 00 5a 00 00 00 2e 00 00 00 2c 00 00 00 5a 00 00 00 5a b1 c3 16]
+2017-08-08 17:13:12,389 WARN nioEventLoopGroup-3-1 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 17 08 07 02 01 03 10 26 00 03 e0 c0 16]
+2017-08-08 17:13:13,351 WARN nioEventLoopGroup-3-1 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 17 08 07 02 01 03 06 00 00 00 00 00 00 21 75 16]
+2017-08-08 17:16:52,692 WARN nioEventLoopGroup-3-1 (SocketServerHandler.java:114)
+channelRead0：[68 02 00 20 17 08 07 02 b2 16]
+2017-08-08 17:16:52,713 WARN nioEventLoopGroup-3-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[02]
+2017-08-08 17:17:05,213 WARN nioEventLoopGroup-3-1 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 17 08 07 02 00 03 00 00 00 01 85 db 16]
+2017-08-08 17:17:06,873 WARN nioEventLoopGroup-3-1 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 17 08 07 02 01 03 02 00 01 79 84 16]
+2017-08-08 17:17:31,413 WARN nioEventLoopGroup-3-1 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 17 08 07 02 00 03 00 00 00 01 85 db 16]
+2017-08-08 17:17:33,092 WARN nioEventLoopGroup-3-1 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 17 08 07 02 01 03 02 00 01 79 84 16]
+2017-08-08 17:17:36,262 WARN nioEventLoopGroup-3-1 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 17 08 07 02 01 03 00 06 00 01 64 0b 16]
+2017-08-08 17:17:37,512 WARN nioEventLoopGroup-3-1 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 17 08 07 02 01 03 02 00 01 79 84 16]
+2017-08-08 17:17:40,810 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[01 03 10 00 00 26 c0 d0]
+2017-08-08 17:17:41,173 WARN nioEventLoopGroup-3-1 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 17 08 07 02 01 03 00 07 00 01 35 cb 16]
+2017-08-08 17:17:42,732 WARN nioEventLoopGroup-3-1 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 17 08 07 02 01 03 02 00 01 79 84 16]
+2017-08-08 17:17:43,801 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[01 03 00 06 00 02 24 0a]
+2017-08-08 17:17:44,512 WARN nioEventLoopGroup-3-1 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 17 08 07 02 01 03 04 00 01 00 01 6a 33 16]
+2017-08-08 17:21:44,153 WARN nioEventLoopGroup-3-1 (SocketServerHandler.java:114)
+channelRead0：[68 02 00 20 17 08 07 02 b2 16]
+2017-08-08 17:21:44,168 WARN nioEventLoopGroup-3-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[02]
+2017-08-08 17:22:40,832 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[01 03 10 00 00 26 c0 d0]
+2017-08-08 17:22:42,214 WARN nioEventLoopGroup-3-1 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 17 08 07 02 01 03 4c 00 00 17 08 08 17 22 50 13 85 08 d4 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 64 00 64 00 00 00 00 00 00 00 00 00 5a 00 00 00 2e 00 00 00 2c 00 00 00 5a 00 00 00 5a 7e 71 16]
+2017-08-08 17:22:43,819 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[01 03 00 06 00 02 24 0a]
+2017-08-08 17:22:44,434 WARN nioEventLoopGroup-3-1 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 17 08 07 02 01 03 04 00 01 00 01 6a 33 16]
+2017-08-08 17:22:44,450 ERROR nioEventLoopGroup-3-1 (AbstractDevice.java:59)
+unknow Exception
+java.lang.ArrayIndexOutOfBoundsException: 9
+	at com.xhb.sockserv.meter.Meter_OneWayA.analyzeDataInfo(Meter_OneWayA.java:97)
+	at com.xhb.sockserv.meter.Meter_OneWayA.analyzeFrame(Meter_OneWayA.java:83)
+	at com.xhb.sockserv.meter.AbstractDevice.processReadingFrame(AbstractDevice.java:51)
+	at com.xhb.sockserv.SocketServerHandler.readDevice(SocketServerHandler.java:571)
+	at com.xhb.sockserv.SocketServerHandler.channelRead0(SocketServerHandler.java:147)
+	at com.xhb.sockserv.SocketServerHandler.channelRead0(SocketServerHandler.java:1)
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:103)
+	at io.netty.channel.DefaultChannelHandlerContext.invokeChannelRead(DefaultChannelHandlerContext.java:341)
+	at io.netty.channel.DefaultChannelHandlerContext.fireChannelRead(DefaultChannelHandlerContext.java:327)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:163)
+	at io.netty.channel.DefaultChannelHandlerContext.invokeChannelRead(DefaultChannelHandlerContext.java:341)
+	at io.netty.channel.DefaultChannelHandlerContext.fireChannelRead(DefaultChannelHandlerContext.java:327)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:785)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:126)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:507)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:464)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:378)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:350)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+	at java.lang.Thread.run(Thread.java:745)
+2017-08-08 17:26:43,335 WARN nioEventLoopGroup-3-1 (SocketServerHandler.java:114)
+channelRead0：[68 02 00 20 17 08 07 02 b2 16]
+2017-08-08 17:26:43,351 WARN nioEventLoopGroup-3-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[02]
+2017-08-08 17:27:40,843 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[01 03 10 00 00 26 c0 d0]
+2017-08-08 17:27:42,131 WARN nioEventLoopGroup-3-1 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 17 08 07 02 01 03 4c 00 00 17 08 08 17 27 50 13 84 08 d6 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 64 00 64 00 00 00 00 00 00 00 00 00 5a 00 00 00 2e 00 00 00 2c 00 00 00 5a 00 00 00 5a 1f f8 16]
+2017-08-08 17:36:25,283 WARN nioEventLoopGroup-3-1 (SocketServerHandler.java:114)
+channelRead0：[68 01 00 20 17 08 07 02 b1 16]
+2017-08-08 17:36:25,401 WARN nioEventLoopGroup-3-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[01]
+2017-08-08 17:36:35,195 WARN Timer-2 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[55 aa 21 00 00]
+2017-08-08 17:36:36,101 WARN nioEventLoopGroup-3-1 (SocketServerHandler.java:114)
+channelRead0：[55 aa 21 00 8b e2 6f f5 79 f6 37 f4 79 e3 7b e1 7a ec 67 a6 6f a8 67 a9 66 a9 64 ab 65 ad 62 a5 6a a2 6d a0 3d f3 3d f4 37 e7 6a f0 68 f2 69 ff 74 b5 76 e1 7b e5 68 e3 7e e4 7a f1 30 f9 3e f1 3c f3 3c f1 3e f0 38 f7 30 ff 37 f8 35 a8 65 ab 62 a1 71 e6 7c e2 6f e4 79 e3 7d f6 37 f4 63 f9 67 fc 3d f4 33 fc 30 ff 30 fd 32 fc 34 fb 3c f3 3b f4 39 fa 2a bd 27 b9 22 e3 20 ab 35 a3 30 f1 3f f6 35 e5 6e f0 66 f5 34 f7 27 aa 30 bc 33 f2]
+2017-08-08 17:36:38,872 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[01 03 00 06 00 02 24 0a]
+2017-08-08 17:36:39,701 WARN nioEventLoopGroup-3-1 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 17 08 07 02 01 03 04 00 01 00 01 6a 33 16]
+2017-08-08 17:36:41,833 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[01 03 10 00 00 26 c0 d0]
+2017-08-08 17:36:43,420 WARN nioEventLoopGroup-3-1 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 17 08 07 02 01 03 4c 00 00 17 08 08 17 36 51 13 83 08 d8 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 64 00 64 00 00 00 00 00 00 00 00 00 5a 00 00 00 2e 00 00 00 2c 00 00 00 5a 00 00 00 5a 19 7d 16]
+2017-08-08 17:36:43,441 ERROR nioEventLoopGroup-3-1 (AbstractDevice.java:59)
+unknow Exception
+java.lang.ArrayIndexOutOfBoundsException: 9
+	at com.xhb.sockserv.meter.Meter_OneWayA.analyzeDataInfo(Meter_OneWayA.java:104)
+	at com.xhb.sockserv.meter.Meter_OneWayA.analyzeFrame(Meter_OneWayA.java:90)
+	at com.xhb.sockserv.meter.AbstractDevice.processReadingFrame(AbstractDevice.java:51)
+	at com.xhb.sockserv.SocketServerHandler.readDevice(SocketServerHandler.java:571)
+	at com.xhb.sockserv.SocketServerHandler.channelRead0(SocketServerHandler.java:147)
+	at com.xhb.sockserv.SocketServerHandler.channelRead0(SocketServerHandler.java:1)
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:103)
+	at io.netty.channel.DefaultChannelHandlerContext.invokeChannelRead(DefaultChannelHandlerContext.java:341)
+	at io.netty.channel.DefaultChannelHandlerContext.fireChannelRead(DefaultChannelHandlerContext.java:327)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:163)
+	at io.netty.channel.DefaultChannelHandlerContext.invokeChannelRead(DefaultChannelHandlerContext.java:341)
+	at io.netty.channel.DefaultChannelHandlerContext.fireChannelRead(DefaultChannelHandlerContext.java:327)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:785)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:126)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:507)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:464)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:378)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:350)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+	at java.lang.Thread.run(Thread.java:745)
+2017-08-08 17:36:55,194 WARN Timer-2 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[55 aa 23 00 00]
+2017-08-08 17:36:56,304 WARN nioEventLoopGroup-3-1 (SocketServerHandler.java:114)
+channelRead0：[55 aa 23 00 30 e0 6d f7 7b f4 35 f6 65 f5 69 f7 64 c4 52 dd 1c d2 1d cc 02 cd 0a db 15 d8 1f ce 00 c6 0b c8 18 8b 1b 87 19 8a 2a bc 33 f2 31 e1 6c f6 7a f5 34]
+2017-08-08 17:40:12,616 WARN nioEventLoopGroup-3-1 (SocketServerHandler.java:114)
+channelRead0：[68 01 00 20 17 08 07 02 b1 16]
+2017-08-08 17:40:12,727 WARN nioEventLoopGroup-3-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[01]
+2017-08-08 17:40:22,533 WARN Timer-2 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[55 aa 21 00 00]
+2017-08-08 17:40:23,721 WARN nioEventLoopGroup-3-1 (SocketServerHandler.java:114)
+channelRead0：[55 aa 21 00 8b e2 6f f5 79 f6 37 f4 79 e3 7b e1 7a ec 67 a6 6f a8 67 a9 66 a9 64 ab 65 ad 62 a5 6a a2 6d a0 3d f3 3d f4 37 e7 6a f0 68 f2 69 ff 74 b5 76 e1 7b e5 68 e3 7e e4 7a f1 30 f9 3e f1 3c f3 3c f1 3e f0 38 f7 30 ff 37 f8 35 a8 65 ab 62 a1 71 e6 7c e2 6f e4 79 e3 7d f6 37 f4 63 f9 67 fc 3d f4 33 fc 30 ff 30 fd 32 fc 34 fb 3c f3 3b f4 39 fa 2a bd 27 b9 22 e3 20 ab 35 a3 30 f1 3f f6 35 e5 6e f0 66 f5 34 f7 27 aa 30 bc 33 f2]
+2017-08-08 17:40:40,399 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[01 03 00 06 00 02 24 0a]
+2017-08-08 17:40:41,358 WARN nioEventLoopGroup-3-1 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 17 08 07 02 01 03 04 00 01 00 01 6a 33 16]
+2017-08-08 17:40:42,532 WARN Timer-2 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[55 aa 23 00 00]
+2017-08-08 17:40:43,218 WARN nioEventLoopGroup-3-1 (SocketServerHandler.java:114)
+channelRead0：[55 aa 23 00 2d e0 6d f7 7b f4 35 f6 65 f5 69 f7 64 c4 52 dd 1c d2 1d cc 07 cd 1c d2 1e cf 07 cf 0c dc 4f df 43 dd 4e ee 78 f7 36 f5 25 a8 32 be 31 f0]
+2017-08-08 17:40:43,368 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[01 03 10 00 00 26 c0 d0]
+2017-08-08 17:40:44,778 WARN nioEventLoopGroup-3-1 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 17 08 07 02 01 03 4c 00 00 17 08 08 17 40 53 13 83 08 cf 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 64 00 64 00 00 00 00 00 00 00 00 00 5a 00 00 00 2e 00 00 00 2c 00 00 00 5a 00 00 00 5a 0d 2e 16]
+2017-08-08 17:41:52,719 WARN nioEventLoopGroup-3-1 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 17 08 07 02 00 03 00 00 00 01 85 db 16]
+2017-08-08 17:41:53,519 WARN nioEventLoopGroup-3-1 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 17 08 07 02 01 03 02 00 01 79 84 16]
+2017-08-08 17:41:55,159 WARN nioEventLoopGroup-3-1 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 17 08 07 02 01 03 10 00 00 26 c0 d0 16]
+2017-08-08 17:41:56,159 WARN nioEventLoopGroup-3-1 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 17 08 07 02 01 03 4c 00 00 17 08 08 17 42 04 13 88 08 cf 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 64 00 64 00 00 00 00 00 00 00 00 00 5a 00 00 00 2e 00 00 00 2c 00 00 00 5a 00 00 00 5a 20 26 16]
+2017-08-08 17:41:57,078 WARN nioEventLoopGroup-3-1 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 17 08 07 02 01 03 10 26 00 03 e0 c0 16]
+2017-08-08 17:41:58,000 WARN nioEventLoopGroup-3-1 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 17 08 07 02 01 03 06 00 00 00 00 00 00 21 75 16]
+2017-08-08 17:44:45,208 WARN nioEventLoopGroup-3-1 (SocketServerHandler.java:114)
+channelRead0：[68 02 00 20 17 08 07 02 b2 16]
+2017-08-08 17:44:45,225 WARN nioEventLoopGroup-3-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[02]
+2017-08-08 17:45:40,439 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[01 03 00 06 00 02 24 0a]
+2017-08-08 17:46:35,373 WARN nioEventLoopGroup-3-1 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 17 08 07 02 01 03 04 00 01 00 01 6a 33 16]
+2017-08-08 17:46:37,429 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[01 03 10 00 00 26 c0 d0]
+2017-08-08 17:46:38,325 WARN nioEventLoopGroup-3-1 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 17 08 07 02 01 03 4c 00 00 17 08 08 17 46 47 13 87 08 fc 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 64 00 64 00 00 00 00 00 00 00 00 00 5a 00 00 00 2e 00 00 00 2c 00 00 00 5a 00 00 00 5a 31 e6 16]
+2017-08-08 17:50:37,823 WARN nioEventLoopGroup-3-1 (SocketServerHandler.java:114)
+channelRead0：[68 02 00 20 17 08 07 02 b2 16]
+2017-08-08 17:50:37,843 WARN nioEventLoopGroup-3-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[02]
+2017-08-08 17:50:40,462 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[01 03 00 06 00 02 24 0a]
+2017-08-08 17:50:41,344 WARN nioEventLoopGroup-3-1 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 17 08 07 02 01 03 04 00 01 00 01 6a 33 16]
+2017-08-08 17:50:43,452 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[01 03 10 00 00 26 c0 d0]
+2017-08-08 17:50:44,321 WARN nioEventLoopGroup-3-1 (SocketServerHandler.java:114)
+channelRead0：[68 03 00 20 17 08 07 02 01 03 4c 00 00 17 08 08 17 50 53 13 89 09 0c 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 64 00 64 00 00 00 00 00 00 00 00 00 5a 00 00 00 2e 00 00 00 2c 00 00 00 5a 00 00 00 5a c6 43 16]
+2017-08-08 17:54:43,124 WARN nioEventLoopGroup-3-1 (SocketServerHandler.java:114)
+channelRead0：[68 02 00 20 17 08 07 02 b2 16]
+2017-08-08 17:54:43,143 WARN nioEventLoopGroup-3-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[02]
+2017-08-08 17:55:40,476 WARN Timer-1 (ChannelHandlerContextUtils.java:16)
+send msg to 采集器:[01 03 00 06 00 02 24 0a]
+2017-08-08 17:58:00,148 ERROR nioEventLoopGroup-3-1 (SocketRequestDecoder.java:101)
+unexpected exception
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.UnpooledUnsafeDirectByteBuf.setBytes(UnpooledUnsafeDirectByteBuf.java:446)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:871)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:225)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:115)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:507)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:464)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:378)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:350)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+	at java.lang.Thread.run(Thread.java:745)
